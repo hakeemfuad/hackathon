@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "units": "in",
+  "measurement_source": "illustrative_estimate",
+  "body": {
+    "height": 64.96,
+    "chest": 36.02,
+    "waist": 27.6,
+    "hip": 39.06,
+    "shoulder_width": 14.69,
+    "inseam": 30.55,
+    "sleeve_length": 21.46,
+    "thigh": 21.1,
+    "upper_arm": 10.55
+  },
+  "preferences": {
+    "category": "short_sleeve_shirt",
+    "fit": "relaxed",
+    "query": "A lightweight cotton shirt for everyday wear."
+  },
+  "limit": 3
+}

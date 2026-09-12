@@ -1,0 +1,152 @@
+{
+  "provider": "demo",
+  "summary": "3 possible matches for your relaxed fit. Sample matching uses garment measurements and simple keywords from your request.",
+  "recommendations": [
+    {
+      "product_id": "short_sleeve_shirt-01",
+      "size": "L",
+      "reason": "For the relaxed fit you want, size L provides 10.0 in of chest room and 5.5 in of upper arm room beyond your estimated measurements. This could be a good option to try; check the fit notes for dimensions still to confirm.",
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ],
+      "product": {
+        "id": "short_sleeve_shirt-01",
+        "name": "Everyday Crew Tee",
+        "category": "short_sleeve_shirt",
+        "description": "A regular cotton crewneck with a straight hem and standard length.",
+        "tags": [
+          "casual",
+          "crewneck",
+          "standard_length"
+        ],
+        "fabric": "100% cotton jersey",
+        "stretch": "low",
+        "silhouette": "regular",
+        "measurements": {
+          "chest": 46,
+          "hem": 46,
+          "shoulder_width": 19,
+          "sleeve_length": 9,
+          "length": 29,
+          "upper_arm": 16
+        }
+      },
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 46,
+          "ease_inches": 9.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 16,
+          "ease_inches": 5.45
+        }
+      ],
+      "fit_score": 71
+    },
+    {
+      "product_id": "short_sleeve_shirt-07",
+      "size": "M",
+      "reason": "For the relaxed fit you want, size M provides 10.0 in of chest room and 7.0 in of upper arm room beyond your estimated measurements. This could be a good option to try; check the fit notes for dimensions still to confirm.",
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ],
+      "product": {
+        "id": "short_sleeve_shirt-07",
+        "name": "Airy Pocket Shirt",
+        "category": "short_sleeve_shirt",
+        "description": "A light woven short-sleeve shirt with roomy chest and arm openings.",
+        "tags": [
+          "casual",
+          "warm_weather",
+          "button_front",
+          "pocket"
+        ],
+        "fabric": "55% linen, 45% cotton woven",
+        "stretch": "none",
+        "silhouette": "relaxed",
+        "measurements": {
+          "chest": 46,
+          "hem": 46,
+          "shoulder_width": 19.5,
+          "sleeve_length": 10,
+          "length": 29,
+          "upper_arm": 17.5
+        }
+      },
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 46,
+          "ease_inches": 9.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 17.5,
+          "ease_inches": 6.95
+        }
+      ],
+      "fit_score": 51
+    },
+    {
+      "product_id": "short_sleeve_shirt-09",
+      "size": "XL",
+      "reason": "For the relaxed fit you want, size XL provides 10.0 in of chest room and 4.5 in of upper arm room beyond your estimated measurements. This could be a good option to try; check the fit notes for dimensions still to confirm.",
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ],
+      "product": {
+        "id": "short_sleeve_shirt-09",
+        "name": "Compact Rib Tee",
+        "category": "short_sleeve_shirt",
+        "description": "A shorter, close-cut ribbed crewneck with narrow sleeves.",
+        "tags": [
+          "casual",
+          "crewneck",
+          "ribbed",
+          "short_length"
+        ],
+        "fabric": "95% cotton, 5% elastane rib knit",
+        "stretch": "moderate",
+        "silhouette": "slim",
+        "measurements": {
+          "chest": 46,
+          "hem": 45,
+          "shoulder_width": 18.5,
+          "sleeve_length": 8.5,
+          "length": 27,
+          "upper_arm": 15
+        }
+      },
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 46,
+          "ease_inches": 9.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 15,
+          "ease_inches": 4.45
+        }
+      ],
+      "fit_score": 83
+    }
+  ],
+  "limitations": [
+    "Body measurements are illustrative estimates generated from the form, not measurements taken from your body. Confirm with a tape measure.",
+    "All 40 seed products are fictional examples. Their finished garment measurements are in inches; they are not live inventory or real brand size charts.",
+    "Fit scores rank a transparent ease heuristic, not a calibrated probability. Fabric drape, construction, stretch behavior, and personal comfort are not validated.",
+    "Recommendations are possible matches to review, not fit guarantees. Check the relevant measurement methods and size chart before buying."
+  ]
+}

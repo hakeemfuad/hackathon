@@ -1,0 +1,4132 @@
+{
+  "schema_version": "1.0",
+  "units": "in",
+  "measurement_source": "illustrative_estimate",
+  "body": {
+    "height": 64.96,
+    "chest": 36.02,
+    "waist": 27.6,
+    "hip": 39.06,
+    "shoulder_width": 14.69,
+    "inseam": 30.55,
+    "sleeve_length": 21.46,
+    "thigh": 21.1,
+    "upper_arm": 10.55
+  },
+  "preferences": {
+    "category": "short_sleeve_shirt",
+    "fit": "relaxed",
+    "query": "A lightweight cotton shirt for everyday wear."
+  },
+  "limit": 3,
+  "catalog_version": "seed-2026-09-v1",
+  "catalog": [
+    {
+      "id": "pants-01",
+      "name": "Everyday Straight Chino",
+      "category": "pants",
+      "description": "Straight-leg cotton chinos with a standard rise and full-length leg.",
+      "tags": [
+        "casual",
+        "smart_casual",
+        "straight_leg",
+        "standard_rise"
+      ],
+      "fabric": "98% cotton, 2% elastane twill",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28,
+            "hip": 37,
+            "thigh": 22,
+            "inseam": 31
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30,
+            "hip": 39,
+            "thigh": 23,
+            "inseam": 31
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32,
+            "hip": 41,
+            "thigh": 24,
+            "inseam": 31
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34,
+            "hip": 43,
+            "thigh": 25,
+            "inseam": 31
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36,
+            "hip": 45,
+            "thigh": 26,
+            "inseam": 31
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38,
+            "hip": 47,
+            "thigh": 27,
+            "inseam": 31
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40,
+            "hip": 49,
+            "thigh": 28,
+            "inseam": 31
+          }
+        }
+      ]
+    },
+    {
+      "id": "pants-02",
+      "name": "Tapered Stretch Twill Pant",
+      "category": "pants",
+      "description": "Close-cut stretch twill pants with a tapered leg and standard inseam.",
+      "tags": [
+        "casual",
+        "smart_casual",
+        "tapered_leg",
+        "standard_rise"
+      ],
+      "fabric": "96% cotton, 4% elastane twill",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28,
+            "hip": 35,
+            "thigh": 20.5,
+            "inseam": 30
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30,
+            "hip": 37,
+            "thigh": 21.5,
+            "inseam": 30
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32,
+            "hip": 39,
+            "thigh": 22.5,
+            "inseam": 30
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34,
+            "hip": 41,
+            "thigh": 23.5,
+            "inseam": 30
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36,
+            "hip": 43,
+            "thigh": 24.5,
+            "inseam": 30
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38,
+            "hip": 45,
+            "thigh": 25.5,
+            "inseam": 30
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40,
+            "hip": 47,
+            "thigh": 26.5,
+            "inseam": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "pants-03",
+      "name": "Relaxed Canvas Work Pant",
+      "category": "pants",
+      "description": "Roomy canvas pants with a straight leg and extra seat and thigh space.",
+      "tags": [
+        "casual",
+        "utility",
+        "straight_leg",
+        "standard_rise"
+      ],
+      "fabric": "100% cotton canvas",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28.5,
+            "hip": 40,
+            "thigh": 25,
+            "inseam": 32
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30.5,
+            "hip": 42,
+            "thigh": 26,
+            "inseam": 32
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32.5,
+            "hip": 44,
+            "thigh": 27,
+            "inseam": 32
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34.5,
+            "hip": 46,
+            "thigh": 28,
+            "inseam": 32
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36.5,
+            "hip": 48,
+            "thigh": 29,
+            "inseam": 32
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38.5,
+            "hip": 50,
+            "thigh": 30,
+            "inseam": 32
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40.5,
+            "hip": 52,
+            "thigh": 31,
+            "inseam": 32
+          }
+        }
+      ]
+    },
+    {
+      "id": "pants-04",
+      "name": "Cropped Linen Trouser",
+      "category": "pants",
+      "description": "Relaxed linen trousers with a shorter inseam and an airy straight leg.",
+      "tags": [
+        "casual",
+        "warm_weather",
+        "cropped",
+        "straight_leg"
+      ],
+      "fabric": "100% linen",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28,
+            "hip": 39,
+            "thigh": 24,
+            "inseam": 28
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30,
+            "hip": 41,
+            "thigh": 25,
+            "inseam": 28
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32,
+            "hip": 43,
+            "thigh": 26,
+            "inseam": 28
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34,
+            "hip": 45,
+            "thigh": 27,
+            "inseam": 28
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36,
+            "hip": 47,
+            "thigh": 28,
+            "inseam": 28
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38,
+            "hip": 49,
+            "thigh": 29,
+            "inseam": 28
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40,
+            "hip": 51,
+            "thigh": 30,
+            "inseam": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "pants-05",
+      "name": "Athletic Straight Denim Jean",
+      "category": "pants",
+      "description": "Straight-leg denim with extra thigh room, a regular seat, and a longer inseam.",
+      "tags": [
+        "casual",
+        "denim",
+        "athletic_cut",
+        "long_inseam",
+        "straight_leg"
+      ],
+      "fabric": "99% cotton, 1% elastane denim",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28,
+            "hip": 37.5,
+            "thigh": 23,
+            "inseam": 34
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30,
+            "hip": 39.5,
+            "thigh": 24,
+            "inseam": 34
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32,
+            "hip": 41.5,
+            "thigh": 25,
+            "inseam": 34
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34,
+            "hip": 43.5,
+            "thigh": 26,
+            "inseam": 34
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36,
+            "hip": 45.5,
+            "thigh": 27,
+            "inseam": 34
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38,
+            "hip": 47.5,
+            "thigh": 28,
+            "inseam": 34
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40,
+            "hip": 49.5,
+            "thigh": 29,
+            "inseam": 34
+          }
+        }
+      ]
+    },
+    {
+      "id": "pants-06",
+      "name": "Compact Slim Jean",
+      "category": "pants",
+      "description": "Slim denim with a shorter inseam and narrow seat and thigh proportions.",
+      "tags": [
+        "casual",
+        "denim",
+        "short_inseam",
+        "tapered_leg"
+      ],
+      "fabric": "97% cotton, 3% elastane denim",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 27.5,
+            "hip": 35.5,
+            "thigh": 20.5,
+            "inseam": 28
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 29.5,
+            "hip": 37.5,
+            "thigh": 21.5,
+            "inseam": 28
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 31.5,
+            "hip": 39.5,
+            "thigh": 22.5,
+            "inseam": 28
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 33.5,
+            "hip": 41.5,
+            "thigh": 23.5,
+            "inseam": 28
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 35.5,
+            "hip": 43.5,
+            "thigh": 24.5,
+            "inseam": 28
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 37.5,
+            "hip": 45.5,
+            "thigh": 25.5,
+            "inseam": 28
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 39.5,
+            "hip": 47.5,
+            "thigh": 26.5,
+            "inseam": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "pants-07",
+      "name": "Weekend Knit Jogger",
+      "category": "pants",
+      "description": "Relaxed knit joggers with a drawstring waist and cuffed legs.",
+      "tags": [
+        "casual",
+        "loungewear",
+        "elastic_waist",
+        "cuffed"
+      ],
+      "fabric": "80% cotton, 15% polyester, 5% elastane knit",
+      "stretch": "moderate",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 26,
+            "hip": 39,
+            "thigh": 24,
+            "inseam": 29
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 28,
+            "hip": 41,
+            "thigh": 25,
+            "inseam": 29
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 30,
+            "hip": 43,
+            "thigh": 26,
+            "inseam": 29
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 32,
+            "hip": 45,
+            "thigh": 27,
+            "inseam": 29
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 34,
+            "hip": 47,
+            "thigh": 28,
+            "inseam": 29
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 36,
+            "hip": 49,
+            "thigh": 29,
+            "inseam": 29
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 38,
+            "hip": 51,
+            "thigh": 30,
+            "inseam": 29
+          }
+        }
+      ]
+    },
+    {
+      "id": "pants-08",
+      "name": "Travel Taper Pant",
+      "category": "pants",
+      "description": "Lightweight woven pants with a regular seat and tapered legs.",
+      "tags": [
+        "casual",
+        "travel",
+        "lightweight",
+        "tapered_leg"
+      ],
+      "fabric": "90% nylon, 10% elastane woven",
+      "stretch": "moderate",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28,
+            "hip": 37,
+            "thigh": 22,
+            "inseam": 30
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30,
+            "hip": 39,
+            "thigh": 23,
+            "inseam": 30
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32,
+            "hip": 41,
+            "thigh": 24,
+            "inseam": 30
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34,
+            "hip": 43,
+            "thigh": 25,
+            "inseam": 30
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36,
+            "hip": 45,
+            "thigh": 26,
+            "inseam": 30
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38,
+            "hip": 47,
+            "thigh": 27,
+            "inseam": 30
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40,
+            "hip": 49,
+            "thigh": 28,
+            "inseam": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "pants-09",
+      "name": "Curved Waist Utility Pant",
+      "category": "pants",
+      "description": "High-rise utility pants with a curved waistband, extra hip room relative to the waist, and a straight leg.",
+      "tags": [
+        "casual",
+        "utility",
+        "curvy_cut",
+        "high_rise",
+        "straight_leg"
+      ],
+      "fabric": "100% cotton ripstop",
+      "stretch": "none",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28.5,
+            "hip": 41.5,
+            "thigh": 23,
+            "inseam": 31
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30.5,
+            "hip": 43.5,
+            "thigh": 23.75,
+            "inseam": 31
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32.5,
+            "hip": 45.5,
+            "thigh": 24.5,
+            "inseam": 31
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34.5,
+            "hip": 47.5,
+            "thigh": 25.25,
+            "inseam": 31
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36.5,
+            "hip": 49.5,
+            "thigh": 26,
+            "inseam": 31
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38.5,
+            "hip": 51.5,
+            "thigh": 26.75,
+            "inseam": 31
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40.5,
+            "hip": 53.5,
+            "thigh": 27.5,
+            "inseam": 31
+          }
+        }
+      ]
+    },
+    {
+      "id": "pants-10",
+      "name": "Straight Seat Dress Trouser",
+      "category": "pants",
+      "description": "Regular woven trousers with less hip fullness relative to the waistband, a straight leg, and a long hem.",
+      "tags": [
+        "smart_casual",
+        "dress",
+        "straight_seat",
+        "straight_leg",
+        "standard_rise"
+      ],
+      "fabric": "65% polyester, 33% rayon, 2% elastane woven",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28,
+            "hip": 36,
+            "thigh": 22,
+            "inseam": 33
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30,
+            "hip": 38,
+            "thigh": 23,
+            "inseam": 33
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32,
+            "hip": 40,
+            "thigh": 24,
+            "inseam": 33
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34,
+            "hip": 42,
+            "thigh": 25,
+            "inseam": 33
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36,
+            "hip": 44,
+            "thigh": 26,
+            "inseam": 33
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38,
+            "hip": 46,
+            "thigh": 27,
+            "inseam": 33
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40,
+            "hip": 48,
+            "thigh": 28,
+            "inseam": 33
+          }
+        }
+      ]
+    },
+    {
+      "id": "short_sleeve_shirt-01",
+      "name": "Everyday Crew Tee",
+      "category": "short_sleeve_shirt",
+      "description": "A regular cotton crewneck with a straight hem and standard length.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "standard_length"
+      ],
+      "fabric": "100% cotton jersey",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 34,
+            "hem": 34,
+            "shoulder_width": 16,
+            "sleeve_length": 7.5,
+            "length": 26,
+            "upper_arm": 13
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 38,
+            "hem": 38,
+            "shoulder_width": 17,
+            "sleeve_length": 8,
+            "length": 27,
+            "upper_arm": 14
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 42,
+            "hem": 42,
+            "shoulder_width": 18,
+            "sleeve_length": 8.5,
+            "length": 28,
+            "upper_arm": 15
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 46,
+            "hem": 46,
+            "shoulder_width": 19,
+            "sleeve_length": 9,
+            "length": 29,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 50,
+            "shoulder_width": 20,
+            "sleeve_length": 9.5,
+            "length": 30,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 54,
+            "shoulder_width": 21,
+            "sleeve_length": 10,
+            "length": 31,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 58,
+            "shoulder_width": 22,
+            "sleeve_length": 10.5,
+            "length": 32,
+            "upper_arm": 19
+          }
+        }
+      ]
+    },
+    {
+      "id": "short_sleeve_shirt-02",
+      "name": "Fitted Stretch Crew",
+      "category": "short_sleeve_shirt",
+      "description": "A close-cut stretch crewneck with a slightly shaped hem.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "fitted"
+      ],
+      "fabric": "95% cotton, 5% elastane jersey",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 31,
+            "hem": 30,
+            "shoulder_width": 15,
+            "sleeve_length": 7,
+            "length": 25,
+            "upper_arm": 11.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 35,
+            "hem": 34,
+            "shoulder_width": 16,
+            "sleeve_length": 7.5,
+            "length": 26,
+            "upper_arm": 12.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 39,
+            "hem": 38,
+            "shoulder_width": 17,
+            "sleeve_length": 8,
+            "length": 27,
+            "upper_arm": 13.5
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 43,
+            "hem": 42,
+            "shoulder_width": 18,
+            "sleeve_length": 8.5,
+            "length": 28,
+            "upper_arm": 14.5
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 47,
+            "hem": 46,
+            "shoulder_width": 19,
+            "sleeve_length": 9,
+            "length": 29,
+            "upper_arm": 15.5
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 51,
+            "hem": 50,
+            "shoulder_width": 20,
+            "sleeve_length": 9.5,
+            "length": 30,
+            "upper_arm": 16.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 55,
+            "hem": 54,
+            "shoulder_width": 21,
+            "sleeve_length": 10,
+            "length": 31,
+            "upper_arm": 17.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "short_sleeve_shirt-03",
+      "name": "Boxy Heavyweight Tee",
+      "category": "short_sleeve_shirt",
+      "description": "A wide, shorter tee with dropped shoulders and generous sleeves.",
+      "tags": [
+        "casual",
+        "boxy",
+        "heavyweight",
+        "drop_shoulder",
+        "short_length"
+      ],
+      "fabric": "100% heavyweight cotton jersey",
+      "stretch": "low",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 38,
+            "hem": 38,
+            "shoulder_width": 19,
+            "sleeve_length": 8,
+            "length": 24,
+            "upper_arm": 15
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 42,
+            "hem": 42,
+            "shoulder_width": 20,
+            "sleeve_length": 8.5,
+            "length": 25,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 46,
+            "hem": 46,
+            "shoulder_width": 21,
+            "sleeve_length": 9,
+            "length": 26,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 50,
+            "hem": 50,
+            "shoulder_width": 22,
+            "sleeve_length": 9.5,
+            "length": 27,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 54,
+            "shoulder_width": 23,
+            "sleeve_length": 10,
+            "length": 28,
+            "upper_arm": 19
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 58,
+            "shoulder_width": 24,
+            "sleeve_length": 10.5,
+            "length": 29,
+            "upper_arm": 20
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 62,
+            "hem": 62,
+            "shoulder_width": 25,
+            "sleeve_length": 11,
+            "length": 30,
+            "upper_arm": 21
+          }
+        }
+      ]
+    },
+    {
+      "id": "short_sleeve_shirt-04",
+      "name": "Linen Camp Shirt",
+      "category": "short_sleeve_shirt",
+      "description": "A relaxed woven camp-collar shirt with a straight hem.",
+      "tags": [
+        "casual",
+        "warm_weather",
+        "camp_collar",
+        "button_front"
+      ],
+      "fabric": "100% linen woven",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 37,
+            "hem": 37,
+            "shoulder_width": 17,
+            "sleeve_length": 8.5,
+            "length": 26,
+            "upper_arm": 15
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 41,
+            "hem": 41,
+            "shoulder_width": 18,
+            "sleeve_length": 9,
+            "length": 27,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 45,
+            "hem": 45,
+            "shoulder_width": 19,
+            "sleeve_length": 9.5,
+            "length": 28,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 49,
+            "hem": 49,
+            "shoulder_width": 20,
+            "sleeve_length": 10,
+            "length": 29,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 53,
+            "hem": 53,
+            "shoulder_width": 21,
+            "sleeve_length": 10.5,
+            "length": 30,
+            "upper_arm": 19
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 57,
+            "hem": 57,
+            "shoulder_width": 22,
+            "sleeve_length": 11,
+            "length": 31,
+            "upper_arm": 20
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 61,
+            "hem": 61,
+            "shoulder_width": 23,
+            "sleeve_length": 11.5,
+            "length": 32,
+            "upper_arm": 21
+          }
+        }
+      ]
+    },
+    {
+      "id": "short_sleeve_shirt-05",
+      "name": "Pique Polo",
+      "category": "short_sleeve_shirt",
+      "description": "A regular short-sleeve polo with a collar and straight hem.",
+      "tags": [
+        "casual",
+        "smart_casual",
+        "polo"
+      ],
+      "fabric": "97% cotton, 3% elastane pique",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 34,
+            "hem": 33,
+            "shoulder_width": 16,
+            "sleeve_length": 8,
+            "length": 26.5,
+            "upper_arm": 13
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 38,
+            "hem": 37,
+            "shoulder_width": 17,
+            "sleeve_length": 8.5,
+            "length": 27.5,
+            "upper_arm": 14
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 42,
+            "hem": 41,
+            "shoulder_width": 18,
+            "sleeve_length": 9,
+            "length": 28.5,
+            "upper_arm": 15
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 46,
+            "hem": 45,
+            "shoulder_width": 19,
+            "sleeve_length": 9.5,
+            "length": 29.5,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 49,
+            "shoulder_width": 20,
+            "sleeve_length": 10,
+            "length": 30.5,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 53,
+            "shoulder_width": 21,
+            "sleeve_length": 10.5,
+            "length": 31.5,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 57,
+            "shoulder_width": 22,
+            "sleeve_length": 11,
+            "length": 32.5,
+            "upper_arm": 19
+          }
+        }
+      ]
+    },
+    {
+      "id": "short_sleeve_shirt-06",
+      "name": "Longline Jersey Tee",
+      "category": "short_sleeve_shirt",
+      "description": "A regular crewneck with extra body length and a straight hem.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "longline"
+      ],
+      "fabric": "60% cotton, 40% modal jersey",
+      "stretch": "moderate",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 34,
+            "hem": 35,
+            "shoulder_width": 16,
+            "sleeve_length": 8,
+            "length": 29,
+            "upper_arm": 13.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 38,
+            "hem": 39,
+            "shoulder_width": 17,
+            "sleeve_length": 8.5,
+            "length": 30,
+            "upper_arm": 14.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 42,
+            "hem": 43,
+            "shoulder_width": 18,
+            "sleeve_length": 9,
+            "length": 31,
+            "upper_arm": 15.5
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 46,
+            "hem": 47,
+            "shoulder_width": 19,
+            "sleeve_length": 9.5,
+            "length": 32,
+            "upper_arm": 16.5
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 51,
+            "shoulder_width": 20,
+            "sleeve_length": 10,
+            "length": 33,
+            "upper_arm": 17.5
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 55,
+            "shoulder_width": 21,
+            "sleeve_length": 10.5,
+            "length": 34,
+            "upper_arm": 18.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 59,
+            "shoulder_width": 22,
+            "sleeve_length": 11,
+            "length": 35,
+            "upper_arm": 19.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "short_sleeve_shirt-07",
+      "name": "Airy Pocket Shirt",
+      "category": "short_sleeve_shirt",
+      "description": "A light woven short-sleeve shirt with roomy chest and arm openings.",
+      "tags": [
+        "casual",
+        "warm_weather",
+        "button_front",
+        "pocket"
+      ],
+      "fabric": "55% linen, 45% cotton woven",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 38,
+            "hem": 38,
+            "shoulder_width": 17.5,
+            "sleeve_length": 9,
+            "length": 27,
+            "upper_arm": 15.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 42,
+            "hem": 42,
+            "shoulder_width": 18.5,
+            "sleeve_length": 9.5,
+            "length": 28,
+            "upper_arm": 16.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 46,
+            "hem": 46,
+            "shoulder_width": 19.5,
+            "sleeve_length": 10,
+            "length": 29,
+            "upper_arm": 17.5
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 50,
+            "hem": 50,
+            "shoulder_width": 20.5,
+            "sleeve_length": 10.5,
+            "length": 30,
+            "upper_arm": 18.5
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 54,
+            "shoulder_width": 21.5,
+            "sleeve_length": 11,
+            "length": 31,
+            "upper_arm": 19.5
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 58,
+            "shoulder_width": 22.5,
+            "sleeve_length": 11.5,
+            "length": 32,
+            "upper_arm": 20.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 62,
+            "hem": 62,
+            "shoulder_width": 23.5,
+            "sleeve_length": 12,
+            "length": 33,
+            "upper_arm": 21.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "short_sleeve_shirt-08",
+      "name": "Active Stretch Tee",
+      "category": "short_sleeve_shirt",
+      "description": "A fitted stretch tee with conventional shoulder seams and short sleeves.",
+      "tags": [
+        "casual",
+        "active",
+        "lightweight"
+      ],
+      "fabric": "88% polyester, 12% elastane jersey",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 32,
+            "hem": 31,
+            "shoulder_width": 15.5,
+            "sleeve_length": 7.5,
+            "length": 26,
+            "upper_arm": 12
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 36,
+            "hem": 35,
+            "shoulder_width": 16.5,
+            "sleeve_length": 8,
+            "length": 27,
+            "upper_arm": 13
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 40,
+            "hem": 39,
+            "shoulder_width": 17.5,
+            "sleeve_length": 8.5,
+            "length": 28,
+            "upper_arm": 14
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 44,
+            "hem": 43,
+            "shoulder_width": 18.5,
+            "sleeve_length": 9,
+            "length": 29,
+            "upper_arm": 15
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 48,
+            "hem": 47,
+            "shoulder_width": 19.5,
+            "sleeve_length": 9.5,
+            "length": 30,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 52,
+            "hem": 51,
+            "shoulder_width": 20.5,
+            "sleeve_length": 10,
+            "length": 31,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 56,
+            "hem": 55,
+            "shoulder_width": 21.5,
+            "sleeve_length": 10.5,
+            "length": 32,
+            "upper_arm": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "short_sleeve_shirt-09",
+      "name": "Compact Rib Tee",
+      "category": "short_sleeve_shirt",
+      "description": "A shorter, close-cut ribbed crewneck with narrow sleeves.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "ribbed",
+        "short_length"
+      ],
+      "fabric": "95% cotton, 5% elastane rib knit",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 30,
+            "hem": 29,
+            "shoulder_width": 14.5,
+            "sleeve_length": 6.5,
+            "length": 23,
+            "upper_arm": 11
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 34,
+            "hem": 33,
+            "shoulder_width": 15.5,
+            "sleeve_length": 7,
+            "length": 24,
+            "upper_arm": 12
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 38,
+            "hem": 37,
+            "shoulder_width": 16.5,
+            "sleeve_length": 7.5,
+            "length": 25,
+            "upper_arm": 13
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 42,
+            "hem": 41,
+            "shoulder_width": 17.5,
+            "sleeve_length": 8,
+            "length": 26,
+            "upper_arm": 14
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 46,
+            "hem": 45,
+            "shoulder_width": 18.5,
+            "sleeve_length": 8.5,
+            "length": 27,
+            "upper_arm": 15
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 49,
+            "shoulder_width": 19.5,
+            "sleeve_length": 9,
+            "length": 28,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 53,
+            "shoulder_width": 20.5,
+            "sleeve_length": 9.5,
+            "length": 29,
+            "upper_arm": 17
+          }
+        }
+      ]
+    },
+    {
+      "id": "short_sleeve_shirt-10",
+      "name": "Relaxed Cotton Henley",
+      "category": "short_sleeve_shirt",
+      "description": "A roomy short-sleeve henley with a partial button placket.",
+      "tags": [
+        "casual",
+        "henley",
+        "standard_length"
+      ],
+      "fabric": "100% cotton slub jersey",
+      "stretch": "low",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 37,
+            "hem": 36,
+            "shoulder_width": 17,
+            "sleeve_length": 8.5,
+            "length": 27,
+            "upper_arm": 14.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 41,
+            "hem": 40,
+            "shoulder_width": 18,
+            "sleeve_length": 9,
+            "length": 28,
+            "upper_arm": 15.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 45,
+            "hem": 44,
+            "shoulder_width": 19,
+            "sleeve_length": 9.5,
+            "length": 29,
+            "upper_arm": 16.5
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 49,
+            "hem": 48,
+            "shoulder_width": 20,
+            "sleeve_length": 10,
+            "length": 30,
+            "upper_arm": 17.5
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 53,
+            "hem": 52,
+            "shoulder_width": 21,
+            "sleeve_length": 10.5,
+            "length": 31,
+            "upper_arm": 18.5
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 57,
+            "hem": 56,
+            "shoulder_width": 22,
+            "sleeve_length": 11,
+            "length": 32,
+            "upper_arm": 19.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 61,
+            "hem": 60,
+            "shoulder_width": 23,
+            "sleeve_length": 11.5,
+            "length": 33,
+            "upper_arm": 20.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "hoodie-01",
+      "name": "Everyday Pullover Hoodie",
+      "category": "hoodie",
+      "description": "A regular fleece pullover with a ribbed hem and standard-length sleeves.",
+      "tags": [
+        "casual",
+        "pullover",
+        "fleece",
+        "layering"
+      ],
+      "fabric": "80% cotton, 20% polyester fleece",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 38,
+            "hem": 34,
+            "shoulder_width": 18,
+            "sleeve_length": 24.25,
+            "length": 26,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 42,
+            "hem": 38,
+            "shoulder_width": 19,
+            "sleeve_length": 24.63,
+            "length": 27,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 46,
+            "hem": 42,
+            "shoulder_width": 20,
+            "sleeve_length": 25,
+            "length": 28,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 50,
+            "hem": 46,
+            "shoulder_width": 21,
+            "sleeve_length": 25.38,
+            "length": 29,
+            "upper_arm": 19
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 50,
+            "shoulder_width": 22,
+            "sleeve_length": 25.75,
+            "length": 30,
+            "upper_arm": 20
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 54,
+            "shoulder_width": 23,
+            "sleeve_length": 26.13,
+            "length": 31,
+            "upper_arm": 21
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 62,
+            "hem": 58,
+            "shoulder_width": 24,
+            "sleeve_length": 26.5,
+            "length": 32,
+            "upper_arm": 22
+          }
+        }
+      ]
+    },
+    {
+      "id": "hoodie-02",
+      "name": "Narrow Sleeve French Terry Hoodie",
+      "category": "hoodie",
+      "description": "A close-cut pullover in light stretch French terry with narrower upper sleeves and a shaped hem.",
+      "tags": [
+        "casual",
+        "pullover",
+        "french_terry",
+        "lightweight",
+        "narrow_sleeve"
+      ],
+      "fabric": "95% cotton, 5% elastane French terry",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 34,
+            "hem": 31,
+            "shoulder_width": 16.5,
+            "sleeve_length": 24.75,
+            "length": 25.5,
+            "upper_arm": 12
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 38,
+            "hem": 35,
+            "shoulder_width": 17.5,
+            "sleeve_length": 25.13,
+            "length": 26.5,
+            "upper_arm": 13
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 42,
+            "hem": 39,
+            "shoulder_width": 18.5,
+            "sleeve_length": 25.5,
+            "length": 27.5,
+            "upper_arm": 14
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 46,
+            "hem": 43,
+            "shoulder_width": 19.5,
+            "sleeve_length": 25.88,
+            "length": 28.5,
+            "upper_arm": 15
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 47,
+            "shoulder_width": 20.5,
+            "sleeve_length": 26.25,
+            "length": 29.5,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 51,
+            "shoulder_width": 21.5,
+            "sleeve_length": 26.63,
+            "length": 30.5,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 55,
+            "shoulder_width": 22.5,
+            "sleeve_length": 27,
+            "length": 31.5,
+            "upper_arm": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "hoodie-03",
+      "name": "Roomy Drop Shoulder Hoodie",
+      "category": "hoodie",
+      "description": "A wide fleece pullover with dropped shoulders and generous body ease.",
+      "tags": [
+        "casual",
+        "pullover",
+        "drop_shoulder",
+        "oversized",
+        "layering"
+      ],
+      "fabric": "85% cotton, 15% polyester fleece",
+      "stretch": "low",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 42,
+            "hem": 38,
+            "shoulder_width": 22,
+            "sleeve_length": 22.25,
+            "length": 27,
+            "upper_arm": 19
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 46,
+            "hem": 42,
+            "shoulder_width": 23,
+            "sleeve_length": 22.63,
+            "length": 28,
+            "upper_arm": 20
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 50,
+            "hem": 46,
+            "shoulder_width": 24,
+            "sleeve_length": 23,
+            "length": 29,
+            "upper_arm": 21
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 54,
+            "hem": 50,
+            "shoulder_width": 25,
+            "sleeve_length": 23.38,
+            "length": 30,
+            "upper_arm": 22
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 54,
+            "shoulder_width": 26,
+            "sleeve_length": 23.75,
+            "length": 31,
+            "upper_arm": 23
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 62,
+            "hem": 58,
+            "shoulder_width": 27,
+            "sleeve_length": 24.13,
+            "length": 32,
+            "upper_arm": 24
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 66,
+            "hem": 62,
+            "shoulder_width": 28,
+            "sleeve_length": 24.5,
+            "length": 33,
+            "upper_arm": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "hoodie-04",
+      "name": "Cropped Box Hoodie",
+      "category": "hoodie",
+      "description": "A boxy pullover with a short body and roomy sleeves.",
+      "tags": [
+        "casual",
+        "pullover",
+        "cropped",
+        "boxy",
+        "drop_shoulder"
+      ],
+      "fabric": "100% cotton French terry",
+      "stretch": "low",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 40,
+            "hem": 37,
+            "shoulder_width": 20,
+            "sleeve_length": 23.25,
+            "length": 22.5,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 44,
+            "hem": 41,
+            "shoulder_width": 21,
+            "sleeve_length": 23.63,
+            "length": 23.5,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 48,
+            "hem": 45,
+            "shoulder_width": 22,
+            "sleeve_length": 24,
+            "length": 24.5,
+            "upper_arm": 19
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 52,
+            "hem": 49,
+            "shoulder_width": 23,
+            "sleeve_length": 24.38,
+            "length": 25.5,
+            "upper_arm": 20
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 56,
+            "hem": 53,
+            "shoulder_width": 24,
+            "sleeve_length": 24.75,
+            "length": 26.5,
+            "upper_arm": 21
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 60,
+            "hem": 57,
+            "shoulder_width": 25,
+            "sleeve_length": 25.13,
+            "length": 27.5,
+            "upper_arm": 22
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 64,
+            "hem": 61,
+            "shoulder_width": 26,
+            "sleeve_length": 25.5,
+            "length": 28.5,
+            "upper_arm": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "hoodie-05",
+      "name": "Full Zip Jersey Hoodie",
+      "category": "hoodie",
+      "description": "A regular zip-front hoodie in lightweight stretch jersey.",
+      "tags": [
+        "casual",
+        "full_zip",
+        "lightweight",
+        "layering"
+      ],
+      "fabric": "92% cotton, 8% elastane jersey",
+      "stretch": "moderate",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 36,
+            "hem": 34,
+            "shoulder_width": 17.5,
+            "sleeve_length": 24.75,
+            "length": 26.5,
+            "upper_arm": 15
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 40,
+            "hem": 38,
+            "shoulder_width": 18.5,
+            "sleeve_length": 25.13,
+            "length": 27.5,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 44,
+            "hem": 42,
+            "shoulder_width": 19.5,
+            "sleeve_length": 25.5,
+            "length": 28.5,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 48,
+            "hem": 46,
+            "shoulder_width": 20.5,
+            "sleeve_length": 25.88,
+            "length": 29.5,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 52,
+            "hem": 50,
+            "shoulder_width": 21.5,
+            "sleeve_length": 26.25,
+            "length": 30.5,
+            "upper_arm": 19
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 56,
+            "hem": 54,
+            "shoulder_width": 22.5,
+            "sleeve_length": 26.63,
+            "length": 31.5,
+            "upper_arm": 20
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 60,
+            "hem": 58,
+            "shoulder_width": 23.5,
+            "sleeve_length": 27,
+            "length": 32.5,
+            "upper_arm": 21
+          }
+        }
+      ]
+    },
+    {
+      "id": "hoodie-06",
+      "name": "Longline Fleece Hoodie",
+      "category": "hoodie",
+      "description": "A regular pullover with added body and sleeve length.",
+      "tags": [
+        "casual",
+        "pullover",
+        "longline",
+        "long_sleeve_length"
+      ],
+      "fabric": "70% cotton, 30% polyester fleece",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 38,
+            "hem": 35,
+            "shoulder_width": 18,
+            "sleeve_length": 26.25,
+            "length": 30,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 42,
+            "hem": 39,
+            "shoulder_width": 19,
+            "sleeve_length": 26.63,
+            "length": 31,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 46,
+            "hem": 43,
+            "shoulder_width": 20,
+            "sleeve_length": 27,
+            "length": 32,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 50,
+            "hem": 47,
+            "shoulder_width": 21,
+            "sleeve_length": 27.38,
+            "length": 33,
+            "upper_arm": 19
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 51,
+            "shoulder_width": 22,
+            "sleeve_length": 27.75,
+            "length": 34,
+            "upper_arm": 20
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 55,
+            "shoulder_width": 23,
+            "sleeve_length": 28.13,
+            "length": 35,
+            "upper_arm": 21
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 62,
+            "hem": 59,
+            "shoulder_width": 24,
+            "sleeve_length": 28.5,
+            "length": 36,
+            "upper_arm": 22
+          }
+        }
+      ]
+    },
+    {
+      "id": "hoodie-07",
+      "name": "Relaxed Thermal Hoodie",
+      "category": "hoodie",
+      "description": "A relaxed pullover in textured waffle knit with a straight hem.",
+      "tags": [
+        "casual",
+        "pullover",
+        "waffle",
+        "straight_hem"
+      ],
+      "fabric": "60% cotton, 35% polyester, 5% elastane waffle knit",
+      "stretch": "moderate",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 40,
+            "hem": 40,
+            "shoulder_width": 19,
+            "sleeve_length": 24.25,
+            "length": 27,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 44,
+            "hem": 44,
+            "shoulder_width": 20,
+            "sleeve_length": 24.63,
+            "length": 28,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 48,
+            "hem": 48,
+            "shoulder_width": 21,
+            "sleeve_length": 25,
+            "length": 29,
+            "upper_arm": 19
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 52,
+            "hem": 52,
+            "shoulder_width": 22,
+            "sleeve_length": 25.38,
+            "length": 30,
+            "upper_arm": 20
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 56,
+            "hem": 56,
+            "shoulder_width": 23,
+            "sleeve_length": 25.75,
+            "length": 31,
+            "upper_arm": 21
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 60,
+            "hem": 60,
+            "shoulder_width": 24,
+            "sleeve_length": 26.13,
+            "length": 32,
+            "upper_arm": 22
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 64,
+            "hem": 64,
+            "shoulder_width": 25,
+            "sleeve_length": 26.5,
+            "length": 33,
+            "upper_arm": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "hoodie-08",
+      "name": "Compact Zip Hoodie",
+      "category": "hoodie",
+      "description": "A close-fitting zip hoodie with a shorter body and sleeve length.",
+      "tags": [
+        "casual",
+        "full_zip",
+        "short_length",
+        "short_sleeve_length"
+      ],
+      "fabric": "80% cotton, 15% polyester, 5% elastane French terry",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 34,
+            "hem": 31,
+            "shoulder_width": 16,
+            "sleeve_length": 23.25,
+            "length": 23.5,
+            "upper_arm": 13.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 38,
+            "hem": 35,
+            "shoulder_width": 17,
+            "sleeve_length": 23.63,
+            "length": 24.5,
+            "upper_arm": 14.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 42,
+            "hem": 39,
+            "shoulder_width": 18,
+            "sleeve_length": 24,
+            "length": 25.5,
+            "upper_arm": 15.5
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 46,
+            "hem": 43,
+            "shoulder_width": 19,
+            "sleeve_length": 24.38,
+            "length": 26.5,
+            "upper_arm": 16.5
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 47,
+            "shoulder_width": 20,
+            "sleeve_length": 24.75,
+            "length": 27.5,
+            "upper_arm": 17.5
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 51,
+            "shoulder_width": 21,
+            "sleeve_length": 25.13,
+            "length": 28.5,
+            "upper_arm": 18.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 55,
+            "shoulder_width": 22,
+            "sleeve_length": 25.5,
+            "length": 29.5,
+            "upper_arm": 19.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "hoodie-09",
+      "name": "Heavyweight Weekend Hoodie",
+      "category": "hoodie",
+      "description": "A generous heavyweight fleece pullover with a roomy chest and upper arms.",
+      "tags": [
+        "casual",
+        "pullover",
+        "heavyweight",
+        "layering",
+        "drop_shoulder"
+      ],
+      "fabric": "100% cotton heavyweight fleece",
+      "stretch": "low",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 44,
+            "hem": 39,
+            "shoulder_width": 21,
+            "sleeve_length": 23.75,
+            "length": 28,
+            "upper_arm": 19
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 48,
+            "hem": 43,
+            "shoulder_width": 22,
+            "sleeve_length": 24.13,
+            "length": 29,
+            "upper_arm": 20
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 52,
+            "hem": 47,
+            "shoulder_width": 23,
+            "sleeve_length": 24.5,
+            "length": 30,
+            "upper_arm": 21
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 56,
+            "hem": 51,
+            "shoulder_width": 24,
+            "sleeve_length": 24.88,
+            "length": 31,
+            "upper_arm": 22
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 60,
+            "hem": 55,
+            "shoulder_width": 25,
+            "sleeve_length": 25.25,
+            "length": 32,
+            "upper_arm": 23
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 64,
+            "hem": 59,
+            "shoulder_width": 26,
+            "sleeve_length": 25.63,
+            "length": 33,
+            "upper_arm": 24
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 68,
+            "hem": 63,
+            "shoulder_width": 27,
+            "sleeve_length": 26,
+            "length": 34,
+            "upper_arm": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "hoodie-10",
+      "name": "Streamlined Travel Zip Hoodie",
+      "category": "hoodie",
+      "description": "A regular zip-front hoodie with a roomy torso, tapered upper sleeves, and a straight hem.",
+      "tags": [
+        "casual",
+        "full_zip",
+        "travel",
+        "straight_hem",
+        "tapered_sleeve"
+      ],
+      "fabric": "75% polyester, 20% rayon, 5% elastane double knit",
+      "stretch": "moderate",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 37,
+            "hem": 36,
+            "shoulder_width": 17,
+            "sleeve_length": 25.25,
+            "length": 27,
+            "upper_arm": 14.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 41,
+            "hem": 40,
+            "shoulder_width": 18,
+            "sleeve_length": 25.63,
+            "length": 28,
+            "upper_arm": 15.25
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 45,
+            "hem": 44,
+            "shoulder_width": 19,
+            "sleeve_length": 26,
+            "length": 29,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 49,
+            "hem": 48,
+            "shoulder_width": 20,
+            "sleeve_length": 26.38,
+            "length": 30,
+            "upper_arm": 16.75
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 53,
+            "hem": 52,
+            "shoulder_width": 21,
+            "sleeve_length": 26.75,
+            "length": 31,
+            "upper_arm": 17.5
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 57,
+            "hem": 56,
+            "shoulder_width": 22,
+            "sleeve_length": 27.13,
+            "length": 32,
+            "upper_arm": 18.25
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 61,
+            "hem": 60,
+            "shoulder_width": 23,
+            "sleeve_length": 27.5,
+            "length": 33,
+            "upper_arm": 19
+          }
+        }
+      ]
+    },
+    {
+      "id": "long_sleeve_shirt-01",
+      "name": "Everyday Long Sleeve Crew",
+      "category": "long_sleeve_shirt",
+      "description": "A regular cotton jersey crewneck with conventional shoulder seams.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "standard_length"
+      ],
+      "fabric": "100% cotton jersey",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 34,
+            "hem": 34,
+            "shoulder_width": 16,
+            "sleeve_length": 24.75,
+            "length": 26,
+            "upper_arm": 13
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 38,
+            "hem": 38,
+            "shoulder_width": 17,
+            "sleeve_length": 25.13,
+            "length": 27,
+            "upper_arm": 14
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 42,
+            "hem": 42,
+            "shoulder_width": 18,
+            "sleeve_length": 25.5,
+            "length": 28,
+            "upper_arm": 15
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 46,
+            "hem": 46,
+            "shoulder_width": 19,
+            "sleeve_length": 25.88,
+            "length": 29,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 50,
+            "shoulder_width": 20,
+            "sleeve_length": 26.25,
+            "length": 30,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 54,
+            "shoulder_width": 21,
+            "sleeve_length": 26.63,
+            "length": 31,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 58,
+            "shoulder_width": 22,
+            "sleeve_length": 27,
+            "length": 32,
+            "upper_arm": 19
+          }
+        }
+      ]
+    },
+    {
+      "id": "long_sleeve_shirt-02",
+      "name": "Fitted Rib Long Sleeve",
+      "category": "long_sleeve_shirt",
+      "description": "A close-cut ribbed crewneck with a shaped hem and narrow sleeves.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "ribbed",
+        "fitted"
+      ],
+      "fabric": "95% cotton, 5% elastane rib knit",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 31,
+            "hem": 30,
+            "shoulder_width": 15,
+            "sleeve_length": 24.25,
+            "length": 25,
+            "upper_arm": 11.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 35,
+            "hem": 34,
+            "shoulder_width": 16,
+            "sleeve_length": 24.63,
+            "length": 26,
+            "upper_arm": 12.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 39,
+            "hem": 38,
+            "shoulder_width": 17,
+            "sleeve_length": 25,
+            "length": 27,
+            "upper_arm": 13.5
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 43,
+            "hem": 42,
+            "shoulder_width": 18,
+            "sleeve_length": 25.38,
+            "length": 28,
+            "upper_arm": 14.5
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 47,
+            "hem": 46,
+            "shoulder_width": 19,
+            "sleeve_length": 25.75,
+            "length": 29,
+            "upper_arm": 15.5
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 51,
+            "hem": 50,
+            "shoulder_width": 20,
+            "sleeve_length": 26.13,
+            "length": 30,
+            "upper_arm": 16.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 55,
+            "hem": 54,
+            "shoulder_width": 21,
+            "sleeve_length": 26.5,
+            "length": 31,
+            "upper_arm": 17.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "long_sleeve_shirt-03",
+      "name": "Regular Oxford Shirt",
+      "category": "long_sleeve_shirt",
+      "description": "A regular woven button-front shirt with a standard collar and curved hem.",
+      "tags": [
+        "smart_casual",
+        "button_front",
+        "oxford",
+        "curved_hem"
+      ],
+      "fabric": "100% cotton Oxford weave",
+      "stretch": "none",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 36,
+            "hem": 36,
+            "shoulder_width": 16.5,
+            "sleeve_length": 24.75,
+            "length": 28,
+            "upper_arm": 14.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 40,
+            "hem": 40,
+            "shoulder_width": 17.5,
+            "sleeve_length": 25.13,
+            "length": 29,
+            "upper_arm": 15.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 44,
+            "hem": 44,
+            "shoulder_width": 18.5,
+            "sleeve_length": 25.5,
+            "length": 30,
+            "upper_arm": 16.5
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 48,
+            "hem": 48,
+            "shoulder_width": 19.5,
+            "sleeve_length": 25.88,
+            "length": 31,
+            "upper_arm": 17.5
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 52,
+            "hem": 52,
+            "shoulder_width": 20.5,
+            "sleeve_length": 26.25,
+            "length": 32,
+            "upper_arm": 18.5
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 56,
+            "hem": 56,
+            "shoulder_width": 21.5,
+            "sleeve_length": 26.63,
+            "length": 33,
+            "upper_arm": 19.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 60,
+            "hem": 60,
+            "shoulder_width": 22.5,
+            "sleeve_length": 27,
+            "length": 34,
+            "upper_arm": 20.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "long_sleeve_shirt-04",
+      "name": "Relaxed Linen Long Sleeve",
+      "category": "long_sleeve_shirt",
+      "description": "A roomy linen button-front shirt with generous sleeves and a longer body.",
+      "tags": [
+        "casual",
+        "warm_weather",
+        "button_front",
+        "linen"
+      ],
+      "fabric": "100% linen woven",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 39,
+            "hem": 39,
+            "shoulder_width": 18,
+            "sleeve_length": 24.25,
+            "length": 28.5,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 43,
+            "hem": 43,
+            "shoulder_width": 19,
+            "sleeve_length": 24.63,
+            "length": 29.5,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 47,
+            "hem": 47,
+            "shoulder_width": 20,
+            "sleeve_length": 25,
+            "length": 30.5,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 51,
+            "hem": 51,
+            "shoulder_width": 21,
+            "sleeve_length": 25.38,
+            "length": 31.5,
+            "upper_arm": 19
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 55,
+            "hem": 55,
+            "shoulder_width": 22,
+            "sleeve_length": 25.75,
+            "length": 32.5,
+            "upper_arm": 20
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 59,
+            "hem": 59,
+            "shoulder_width": 23,
+            "sleeve_length": 26.13,
+            "length": 33.5,
+            "upper_arm": 21
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 63,
+            "hem": 63,
+            "shoulder_width": 24,
+            "sleeve_length": 26.5,
+            "length": 34.5,
+            "upper_arm": 22
+          }
+        }
+      ]
+    },
+    {
+      "id": "long_sleeve_shirt-05",
+      "name": "Slim Stretch Poplin Shirt",
+      "category": "long_sleeve_shirt",
+      "description": "A close-cut woven button-front shirt with a shaped waist and hem.",
+      "tags": [
+        "smart_casual",
+        "dress",
+        "button_front",
+        "poplin"
+      ],
+      "fabric": "97% cotton, 3% elastane poplin",
+      "stretch": "low",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 33,
+            "hem": 32,
+            "shoulder_width": 16,
+            "sleeve_length": 25.25,
+            "length": 27.5,
+            "upper_arm": 13
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 37,
+            "hem": 36,
+            "shoulder_width": 17,
+            "sleeve_length": 25.63,
+            "length": 28.5,
+            "upper_arm": 14
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 41,
+            "hem": 40,
+            "shoulder_width": 18,
+            "sleeve_length": 26,
+            "length": 29.5,
+            "upper_arm": 15
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 45,
+            "hem": 44,
+            "shoulder_width": 19,
+            "sleeve_length": 26.38,
+            "length": 30.5,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 49,
+            "hem": 48,
+            "shoulder_width": 20,
+            "sleeve_length": 26.75,
+            "length": 31.5,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 53,
+            "hem": 52,
+            "shoulder_width": 21,
+            "sleeve_length": 27.13,
+            "length": 32.5,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 57,
+            "hem": 56,
+            "shoulder_width": 22,
+            "sleeve_length": 27.5,
+            "length": 33.5,
+            "upper_arm": 19
+          }
+        }
+      ]
+    },
+    {
+      "id": "long_sleeve_shirt-06",
+      "name": "Boxy Pocket Long Sleeve",
+      "category": "long_sleeve_shirt",
+      "description": "A wide jersey crewneck with dropped shoulders and a shorter body.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "boxy",
+        "drop_shoulder",
+        "short_length"
+      ],
+      "fabric": "100% heavyweight cotton jersey",
+      "stretch": "low",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 39,
+            "hem": 39,
+            "shoulder_width": 20,
+            "sleeve_length": 22.25,
+            "length": 24.5,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 43,
+            "hem": 43,
+            "shoulder_width": 21,
+            "sleeve_length": 22.63,
+            "length": 25.5,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 47,
+            "hem": 47,
+            "shoulder_width": 22,
+            "sleeve_length": 23,
+            "length": 26.5,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 51,
+            "hem": 51,
+            "shoulder_width": 23,
+            "sleeve_length": 23.38,
+            "length": 27.5,
+            "upper_arm": 19
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 55,
+            "hem": 55,
+            "shoulder_width": 24,
+            "sleeve_length": 23.75,
+            "length": 28.5,
+            "upper_arm": 20
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 59,
+            "hem": 59,
+            "shoulder_width": 25,
+            "sleeve_length": 24.13,
+            "length": 29.5,
+            "upper_arm": 21
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 63,
+            "hem": 63,
+            "shoulder_width": 26,
+            "sleeve_length": 24.5,
+            "length": 30.5,
+            "upper_arm": 22
+          }
+        }
+      ]
+    },
+    {
+      "id": "long_sleeve_shirt-07",
+      "name": "Longline Waffle Henley",
+      "category": "long_sleeve_shirt",
+      "description": "A regular waffle-knit henley with added body and sleeve length.",
+      "tags": [
+        "casual",
+        "henley",
+        "waffle",
+        "longline",
+        "long_sleeve_length"
+      ],
+      "fabric": "95% cotton, 5% elastane waffle knit",
+      "stretch": "moderate",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 35,
+            "hem": 34,
+            "shoulder_width": 16.5,
+            "sleeve_length": 26.25,
+            "length": 30,
+            "upper_arm": 14
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 39,
+            "hem": 38,
+            "shoulder_width": 17.5,
+            "sleeve_length": 26.63,
+            "length": 31,
+            "upper_arm": 15
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 43,
+            "hem": 42,
+            "shoulder_width": 18.5,
+            "sleeve_length": 27,
+            "length": 32,
+            "upper_arm": 16
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 47,
+            "hem": 46,
+            "shoulder_width": 19.5,
+            "sleeve_length": 27.38,
+            "length": 33,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 51,
+            "hem": 50,
+            "shoulder_width": 20.5,
+            "sleeve_length": 27.75,
+            "length": 34,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 55,
+            "hem": 54,
+            "shoulder_width": 21.5,
+            "sleeve_length": 28.13,
+            "length": 35,
+            "upper_arm": 19
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 59,
+            "hem": 58,
+            "shoulder_width": 22.5,
+            "sleeve_length": 28.5,
+            "length": 36,
+            "upper_arm": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "long_sleeve_shirt-08",
+      "name": "Relaxed Flannel Shirt",
+      "category": "long_sleeve_shirt",
+      "description": "A roomy brushed woven shirt sized for light layering.",
+      "tags": [
+        "casual",
+        "button_front",
+        "flannel",
+        "layering"
+      ],
+      "fabric": "100% brushed cotton flannel",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 40,
+            "hem": 40,
+            "shoulder_width": 18.5,
+            "sleeve_length": 24.75,
+            "length": 29,
+            "upper_arm": 16.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 44,
+            "hem": 44,
+            "shoulder_width": 19.5,
+            "sleeve_length": 25.13,
+            "length": 30,
+            "upper_arm": 17.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 48,
+            "hem": 48,
+            "shoulder_width": 20.5,
+            "sleeve_length": 25.5,
+            "length": 31,
+            "upper_arm": 18.5
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 52,
+            "hem": 52,
+            "shoulder_width": 21.5,
+            "sleeve_length": 25.88,
+            "length": 32,
+            "upper_arm": 19.5
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 56,
+            "hem": 56,
+            "shoulder_width": 22.5,
+            "sleeve_length": 26.25,
+            "length": 33,
+            "upper_arm": 20.5
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 60,
+            "hem": 60,
+            "shoulder_width": 23.5,
+            "sleeve_length": 26.63,
+            "length": 34,
+            "upper_arm": 21.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 64,
+            "hem": 64,
+            "shoulder_width": 24.5,
+            "sleeve_length": 27,
+            "length": 35,
+            "upper_arm": 22.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "long_sleeve_shirt-09",
+      "name": "Compact Mock Neck",
+      "category": "long_sleeve_shirt",
+      "description": "A close-cut stretch mock-neck shirt with a shorter body and sleeves.",
+      "tags": [
+        "casual",
+        "mock_neck",
+        "short_length",
+        "short_sleeve_length"
+      ],
+      "fabric": "95% modal, 5% elastane jersey",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 31,
+            "hem": 30,
+            "shoulder_width": 15,
+            "sleeve_length": 23.25,
+            "length": 23.5,
+            "upper_arm": 11.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 35,
+            "hem": 34,
+            "shoulder_width": 16,
+            "sleeve_length": 23.63,
+            "length": 24.5,
+            "upper_arm": 12.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 39,
+            "hem": 38,
+            "shoulder_width": 17,
+            "sleeve_length": 24,
+            "length": 25.5,
+            "upper_arm": 13.5
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 43,
+            "hem": 42,
+            "shoulder_width": 18,
+            "sleeve_length": 24.38,
+            "length": 26.5,
+            "upper_arm": 14.5
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 47,
+            "hem": 46,
+            "shoulder_width": 19,
+            "sleeve_length": 24.75,
+            "length": 27.5,
+            "upper_arm": 15.5
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 51,
+            "hem": 50,
+            "shoulder_width": 20,
+            "sleeve_length": 25.13,
+            "length": 28.5,
+            "upper_arm": 16.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 55,
+            "hem": 54,
+            "shoulder_width": 21,
+            "sleeve_length": 25.5,
+            "length": 29.5,
+            "upper_arm": 17.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "long_sleeve_shirt-10",
+      "name": "Cotton Twill Overshirt",
+      "category": "long_sleeve_shirt",
+      "description": "A relaxed woven overshirt with broad shoulders and extra room for a base layer.",
+      "tags": [
+        "casual",
+        "button_front",
+        "overshirt",
+        "layering"
+      ],
+      "fabric": "100% cotton twill",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 41,
+            "hem": 41,
+            "shoulder_width": 19,
+            "sleeve_length": 24.25,
+            "length": 28,
+            "upper_arm": 17
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 45,
+            "hem": 45,
+            "shoulder_width": 20,
+            "sleeve_length": 24.63,
+            "length": 29,
+            "upper_arm": 18
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 49,
+            "hem": 49,
+            "shoulder_width": 21,
+            "sleeve_length": 25,
+            "length": 30,
+            "upper_arm": 19
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 53,
+            "hem": 53,
+            "shoulder_width": 22,
+            "sleeve_length": 25.38,
+            "length": 31,
+            "upper_arm": 20
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 57,
+            "hem": 57,
+            "shoulder_width": 23,
+            "sleeve_length": 25.75,
+            "length": 32,
+            "upper_arm": 21
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 61,
+            "hem": 61,
+            "shoulder_width": 24,
+            "sleeve_length": 26.13,
+            "length": 33,
+            "upper_arm": 22
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 65,
+            "hem": 65,
+            "shoulder_width": 25,
+            "sleeve_length": 26.5,
+            "length": 34,
+            "upper_arm": 23
+          }
+        }
+      ]
+    }
+  ],
+  "fit_policy": {
+    "method": "Transparent heuristic screen, not a trained or calibrated fit prediction.",
+    "requested_fit": "relaxed",
+    "garment_measurement_basis": "finished_garment",
+    "body_measurement_basis": "illustrative body estimates",
+    "circumferences": [
+      "chest",
+      "waist",
+      "hip",
+      "thigh",
+      "upper_arm",
+      "hem"
+    ],
+    "lengths_or_widths": [
+      "height",
+      "shoulder_width",
+      "inseam",
+      "sleeve_length",
+      "length"
+    ],
+    "ease_definition": "Garment circumference minus estimated body circumference, in inches; never flat width.",
+    "acceptable_ease_inches": {
+      "chest": [
+        5,
+        13
+      ],
+      "upper_arm": [
+        2,
+        7
+      ]
+    },
+    "inseam_tolerance_inches": null,
+    "inseam_policy": "Pants must be within 1.5 inches of the illustrative inseam estimate. The form does not establish exact measurement endpoints; this screen assumes comparable endpoints, similar rise, and full-length styling. Verify the actual crotch-to-hem length and intended break.",
+    "sleeve_and_shoulder_policy": "Body shoulder and shoulder-to-wrist sleeve estimates may use different landmarks from garment charts and are not eligibility gates. Never compare a short sleeve length to a wrist-length body estimate. Check the brand measurement method and sleeve endpoint.",
+    "hem_and_length_policy": "Top hem circumference and garment length are provided as catalog facts but not fit-tested: body torso length and circumference at the garment hem height are unavailable. Check hem clearance, particularly at the hips.",
+    "stretch_policy": "No negative ease or numerical stretch allowance; stretch labels are descriptive only.",
+    "scoring": "0–100 heuristic closeness to the midpoint of accepted ease bands, plus inseam closeness for pants. A higher score is not a probability, confidence estimate, guarantee, or validated sizing result."
+  },
+  "eligible_candidates": [
+    {
+      "product_id": "short_sleeve_shirt-09",
+      "size": "XL",
+      "fit_score": 83,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 46,
+          "ease_inches": 9.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 15,
+          "ease_inches": 4.45
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-08",
+      "size": "L",
+      "fit_score": 82.33,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 44,
+          "ease_inches": 7.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 15,
+          "ease_inches": 4.45
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-10",
+      "size": "M",
+      "fit_score": 80.33,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 45,
+          "ease_inches": 8.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 16.5,
+          "ease_inches": 5.95
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-04",
+      "size": "M",
+      "fit_score": 73.67,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 45,
+          "ease_inches": 8.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 17,
+          "ease_inches": 6.45
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-01",
+      "size": "L",
+      "fit_score": 71,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 46,
+          "ease_inches": 9.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 16,
+          "ease_inches": 5.45
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-05",
+      "size": "L",
+      "fit_score": 71,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 46,
+          "ease_inches": 9.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 16,
+          "ease_inches": 5.45
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-06",
+      "size": "L",
+      "fit_score": 64.33,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 46,
+          "ease_inches": 9.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 16.5,
+          "ease_inches": 5.95
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-02",
+      "size": "XL",
+      "fit_score": 61,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 47,
+          "ease_inches": 10.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 15.5,
+          "ease_inches": 4.95
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-02",
+      "size": "L",
+      "fit_score": 59,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 43,
+          "ease_inches": 6.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 14.5,
+          "ease_inches": 3.95
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-03",
+      "size": "M",
+      "fit_score": 57.67,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 46,
+          "ease_inches": 9.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 17,
+          "ease_inches": 6.45
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-07",
+      "size": "M",
+      "fit_score": 51,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 46,
+          "ease_inches": 9.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 17.5,
+          "ease_inches": 6.95
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-01",
+      "size": "M",
+      "fit_score": 49,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 42,
+          "ease_inches": 5.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 15,
+          "ease_inches": 4.45
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-05",
+      "size": "M",
+      "fit_score": 49,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 42,
+          "ease_inches": 5.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 15,
+          "ease_inches": 4.45
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-06",
+      "size": "M",
+      "fit_score": 43.67,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 42,
+          "ease_inches": 5.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 15.5,
+          "ease_inches": 4.95
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-08",
+      "size": "XL",
+      "fit_score": 37.67,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 48,
+          "ease_inches": 11.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 16,
+          "ease_inches": 5.45
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-03",
+      "size": "S",
+      "fit_score": 37,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 42,
+          "ease_inches": 5.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 16,
+          "ease_inches": 5.45
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-09",
+      "size": "L",
+      "fit_score": 35.67,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 42,
+          "ease_inches": 5.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 14,
+          "ease_inches": 3.45
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-07",
+      "size": "S",
+      "fit_score": 30.33,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 42,
+          "ease_inches": 5.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 16.5,
+          "ease_inches": 5.95
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    },
+    {
+      "product_id": "short_sleeve_shirt-10",
+      "size": "L",
+      "fit_score": 1,
+      "comparisons": [
+        {
+          "measurement": "chest",
+          "body_inches": 36.02,
+          "garment_inches": 49,
+          "ease_inches": 12.98
+        },
+        {
+          "measurement": "upper_arm",
+          "body_inches": 10.55,
+          "garment_inches": 17.5,
+          "ease_inches": 6.95
+        }
+      ],
+      "warnings": [
+        "Hem clearance and torso length have not been checked; verify length and room at the hips.",
+        "Short sleeve length is not comparable to the shoulder-to-wrist body estimate. Check shoulder width and sleeve endpoint on the size chart."
+      ]
+    }
+  ],
+  "limitations": [
+    "Body measurements are illustrative estimates generated from the form, not measurements taken from your body. Confirm with a tape measure.",
+    "All 40 seed products are fictional examples. Their finished garment measurements are in inches; they are not live inventory or real brand size charts.",
+    "Fit scores rank a transparent ease heuristic, not a calibrated probability. Fabric drape, construction, stretch behavior, and personal comfort are not validated.",
+    "Recommendations are possible matches to review, not fit guarantees. Check the relevant measurement methods and size chart before buying."
+  ]
+}

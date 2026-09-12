@@ -1,0 +1,160 @@
+{
+  "version": "research-2026-09-12-v1",
+  "intended_use": "Approximate body preview; not a calibrated questionnaire predictor",
+  "units": {
+    "lengths": "cm",
+    "mass": "kg",
+    "research_age": "years",
+    "render_controls": "unitless directions"
+  },
+  "form_ranges_are_not_validation_domains": {
+    "height_cm": [
+      140,
+      220
+    ],
+    "weight_kg": [
+      35,
+      200
+    ]
+  },
+  "accepted_categories": {
+    "gender": [
+      "female",
+      "male"
+    ],
+    "ancestry": [
+      "mixed",
+      "african",
+      "asian",
+      "european"
+    ],
+    "body_shape": [
+      "rectangle",
+      "pear",
+      "apple",
+      "hourglass",
+      "inverted_triangle",
+      "unsure"
+    ],
+    "belly": [
+      "flat",
+      "average",
+      "prominent"
+    ],
+    "build": [
+      "soft",
+      "average",
+      "athletic"
+    ],
+    "legs": [
+      "short",
+      "average",
+      "long"
+    ],
+    "arms": [
+      "short",
+      "average",
+      "long"
+    ],
+    "cup_size": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "DD",
+      "F"
+    ]
+  },
+  "protocols": {
+    "height_cm": "barefoot-floor-to-vertex-v1",
+    "weight_kg": "body-mass-v1",
+    "bust_cm": "horizontal-bust-prominence-v1",
+    "waist_cm": "horizontal-rib-iliac-midpoint-normal-expiration-v1",
+    "hip_cm": "horizontal-maximum-buttocks-v1",
+    "shoulder_width_cm": "straight-biacromial-breadth-v1",
+    "inseam_cm": "vertical-perineum-to-floor-v1",
+    "sleeve_length_cm": "acromion-via-outer-elbow-to-ulnar-styloid-elbow30deg-v1",
+    "thigh_cm": "maximum-upper-thigh-below-gluteal-fold-v1",
+    "upper_arm_cm": "relaxed-acromion-olecranon-midpoint-v1",
+    "underbust_cm": "horizontal-inframammary-fold-v1",
+    "neck_cm": "below-larynx-perpendicular-to-neck-v1",
+    "belly_depth_cm": "sagittal-abdomen-minus-underbust-anterior-positive-v1"
+  },
+  "unsupported_personal_estimates": [
+    "bust_cm",
+    "waist_cm",
+    "hip_cm",
+    "shoulder_width_cm",
+    "inseam_cm",
+    "sleeve_length_cm",
+    "thigh_cm",
+    "upper_arm_cm",
+    "underbust_cm",
+    "neck_cm",
+    "belly_depth_cm"
+  ],
+  "default_unknown_value": null,
+  "verified_numeric_questionnaire_adjustments": {},
+  "ancestry_policy": "neutral for all categories",
+  "cup_policy": "neutral without band and sizing system",
+  "geometric_fallback": {
+    "formula_vertical": "height_cm / reference.height_cm",
+    "formula_transverse": "sqrt((weight_kg / reference.weight_kg) / vertical)",
+    "coefficient_type": "geometry, not fitted anthropometry",
+    "requires_explicit_reference": true,
+    "assumptions": [
+      "unchanged density",
+      "global affine transform before local morphs"
+    ],
+    "individual_accuracy": null
+  },
+  "conditional_research_equation": {
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2569934/",
+    "formula": "exp(intercept + log_age * ln(age_years) + log_weight_over_height * ln(weight_kg / height_cm))",
+    "male": {
+      "intercept": 4.59,
+      "log_age": 0.11,
+      "log_weight_over_height": 0.66,
+      "log_residual_se": 0.05
+    },
+    "female": {
+      "intercept": 4.68,
+      "log_age": 0.07,
+      "log_weight_over_height": 0.64,
+      "log_residual_se": 0.06
+    },
+    "current_questionnaire_eligible": false,
+    "automatic_waist_mapping": false,
+    "missing_input": "age_years",
+    "measurement_protocol": "source protocol unresolved",
+    "exponentiation_target": "geometric-scale estimate; no smearing correction supplied"
+  },
+  "rejected_or_deferred": [
+    {
+      "name": "Bartol 2022",
+      "source": "https://github.com/kristijanbartol/linear-3d-humans",
+      "reasons": [
+        "measurement conventions differ",
+        "saved-weight provenance unverified",
+        "repository labels license noncommercial research"
+      ]
+    },
+    {
+      "name": "Bozeman 2012",
+      "source": "https://link.springer.com/article/10.1186/1471-2288-12-115",
+      "reasons": [
+        "age missing",
+        "separately fitted model without race/ethnicity not numerically published"
+      ]
+    },
+    {
+      "name": "Vleugels 2022",
+      "source": "https://www.mdpi.com/2076-3417/12/19/10158",
+      "reasons": [
+        "age missing",
+        "malformed printed coefficients",
+        "logarithm base not specified in table"
+      ]
+    }
+  ]
+}

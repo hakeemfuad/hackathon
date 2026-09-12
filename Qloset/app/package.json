@@ -1,0 +1,16 @@
+{
+  "name": "qloset-fit-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.9.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "build": "node scripts/build-preview.mjs",
+    "test": "node scripts/check-recommendations.mjs && node scripts/check-api.mjs",
+    "test:geometry": "node scripts/check-model.mjs",
+    "test:garments": "node scripts/check-garments.mjs"
+  }
+}

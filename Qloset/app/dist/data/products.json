@@ -1,0 +1,5503 @@
+{
+  "version": "seed-2026-09-v1",
+  "units": "in",
+  "measurement_basis": "finished_garment",
+  "synthetic": true,
+  "measurement_notes": {
+    "scope": "Fictional sample products and synthetic size charts for recommendation development; these are not actual inventory or manufacturer specifications.",
+    "units": "Every measurement is in inches. Measurements describe the finished garment, not a wearer or a body-size range.",
+    "circumferences": "waist, hip, thigh, chest, hem, and upper_arm are full circumferences, never flat widths. Elastic waists are measured relaxed and unstretched.",
+    "pants": "waist is the waistband circumference; hip is the circumference at the fullest seat; thigh is one leg circumference just below the crotch; inseam runs from the crotch seam to the leg hem.",
+    "tops": "chest is circumference below the armholes; hem is the bottom-opening circumference; shoulder_width runs straight between shoulder seams; sleeve_length runs from shoulder seam to cuff or sleeve edge; length runs from back neck to hem; upper_arm is one sleeve circumference below the armhole.",
+    "sizing": "Size labels are identifiers, not body measurements. Each product has its own size chart. Numeric pant labels indicate nominal waist size; use the actual measurements for comparisons.",
+    "fit": "Garment ease depends on intended fit, fabric, stretch, and layering. Stretch descriptions are qualitative; no stretch allowance has been added to the listed dimensions. Drop-shoulder tops shift length from the sleeve to the shoulder, so sleeve_length alone does not describe arm coverage.",
+    "rendering": "3D construction dimensions, colors, and details are illustrative defaults. Original finished-garment dimensions remain in each size.measurements. Supplemental dimensions in size.render_dimensions are synthetic inches; they are not manufacturer specifications. The preview is a posed geometric approximation, not a fabric or fit simulation."
+  },
+  "products": [
+    {
+      "id": "pants-01",
+      "name": "Everyday Straight Chino",
+      "category": "pants",
+      "description": "Straight-leg cotton chinos with a standard rise and full-length leg.",
+      "tags": [
+        "casual",
+        "smart_casual",
+        "straight_leg",
+        "standard_rise"
+      ],
+      "fabric": "98% cotton, 2% elastane twill",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28,
+            "hip": 37,
+            "thigh": 22,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 10.75,
+            "knee": 17.16,
+            "leg_opening": 15.4
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30,
+            "hip": 39,
+            "thigh": 23,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 11,
+            "knee": 17.94,
+            "leg_opening": 16.1
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32,
+            "hip": 41,
+            "thigh": 24,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 11.25,
+            "knee": 18.72,
+            "leg_opening": 16.8
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34,
+            "hip": 43,
+            "thigh": 25,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 11.5,
+            "knee": 19.5,
+            "leg_opening": 17.5
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36,
+            "hip": 45,
+            "thigh": 26,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 11.75,
+            "knee": 20.28,
+            "leg_opening": 18.2
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38,
+            "hip": 47,
+            "thigh": 27,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 12,
+            "knee": 21.06,
+            "leg_opening": 18.9
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40,
+            "hip": 49,
+            "thigh": 28,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 12.25,
+            "knee": 21.84,
+            "leg_opening": 19.6
+          }
+        }
+      ],
+      "render": {
+        "template": "pants",
+        "color": "#ac926f",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "pants-02",
+      "name": "Tapered Stretch Twill Pant",
+      "category": "pants",
+      "description": "Close-cut stretch twill pants with a tapered leg and standard inseam.",
+      "tags": [
+        "casual",
+        "smart_casual",
+        "tapered_leg",
+        "standard_rise"
+      ],
+      "fabric": "96% cotton, 4% elastane twill",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28,
+            "hip": 35,
+            "thigh": 20.5,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 10.75,
+            "knee": 14.15,
+            "leg_opening": 11.48
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30,
+            "hip": 37,
+            "thigh": 21.5,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 11,
+            "knee": 14.84,
+            "leg_opening": 12.04
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32,
+            "hip": 39,
+            "thigh": 22.5,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 11.25,
+            "knee": 15.52,
+            "leg_opening": 12.6
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34,
+            "hip": 41,
+            "thigh": 23.5,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 11.5,
+            "knee": 16.22,
+            "leg_opening": 13.16
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36,
+            "hip": 43,
+            "thigh": 24.5,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 11.75,
+            "knee": 16.9,
+            "leg_opening": 13.72
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38,
+            "hip": 45,
+            "thigh": 25.5,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 12,
+            "knee": 17.6,
+            "leg_opening": 14.28
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40,
+            "hip": 47,
+            "thigh": 26.5,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 12.25,
+            "knee": 18.29,
+            "leg_opening": 14.84
+          }
+        }
+      ],
+      "render": {
+        "template": "pants",
+        "color": "#535d66",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "pants-03",
+      "name": "Relaxed Canvas Work Pant",
+      "category": "pants",
+      "description": "Roomy canvas pants with a straight leg and extra seat and thigh space.",
+      "tags": [
+        "casual",
+        "utility",
+        "straight_leg",
+        "standard_rise"
+      ],
+      "fabric": "100% cotton canvas",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28.5,
+            "hip": 40,
+            "thigh": 25,
+            "inseam": 32
+          },
+          "render_dimensions": {
+            "rise": 10.75,
+            "knee": 19.5,
+            "leg_opening": 17.5
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30.5,
+            "hip": 42,
+            "thigh": 26,
+            "inseam": 32
+          },
+          "render_dimensions": {
+            "rise": 11,
+            "knee": 20.28,
+            "leg_opening": 18.2
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32.5,
+            "hip": 44,
+            "thigh": 27,
+            "inseam": 32
+          },
+          "render_dimensions": {
+            "rise": 11.25,
+            "knee": 21.06,
+            "leg_opening": 18.9
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34.5,
+            "hip": 46,
+            "thigh": 28,
+            "inseam": 32
+          },
+          "render_dimensions": {
+            "rise": 11.5,
+            "knee": 21.84,
+            "leg_opening": 19.6
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36.5,
+            "hip": 48,
+            "thigh": 29,
+            "inseam": 32
+          },
+          "render_dimensions": {
+            "rise": 11.75,
+            "knee": 22.62,
+            "leg_opening": 20.3
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38.5,
+            "hip": 50,
+            "thigh": 30,
+            "inseam": 32
+          },
+          "render_dimensions": {
+            "rise": 12,
+            "knee": 23.4,
+            "leg_opening": 21
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40.5,
+            "hip": 52,
+            "thigh": 31,
+            "inseam": 32
+          },
+          "render_dimensions": {
+            "rise": 12.25,
+            "knee": 24.18,
+            "leg_opening": 21.7
+          }
+        }
+      ],
+      "render": {
+        "template": "pants",
+        "color": "#777665",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "pants-04",
+      "name": "Cropped Linen Trouser",
+      "category": "pants",
+      "description": "Relaxed linen trousers with a shorter inseam and an airy straight leg.",
+      "tags": [
+        "casual",
+        "warm_weather",
+        "cropped",
+        "straight_leg"
+      ],
+      "fabric": "100% linen",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28,
+            "hip": 39,
+            "thigh": 24,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 10.75,
+            "knee": 18.72,
+            "leg_opening": 16.8
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30,
+            "hip": 41,
+            "thigh": 25,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 11,
+            "knee": 19.5,
+            "leg_opening": 17.5
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32,
+            "hip": 43,
+            "thigh": 26,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 11.25,
+            "knee": 20.28,
+            "leg_opening": 18.2
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34,
+            "hip": 45,
+            "thigh": 27,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 11.5,
+            "knee": 21.06,
+            "leg_opening": 18.9
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36,
+            "hip": 47,
+            "thigh": 28,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 11.75,
+            "knee": 21.84,
+            "leg_opening": 19.6
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38,
+            "hip": 49,
+            "thigh": 29,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 12,
+            "knee": 22.62,
+            "leg_opening": 20.3
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40,
+            "hip": 51,
+            "thigh": 30,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 12.25,
+            "knee": 23.4,
+            "leg_opening": 21
+          }
+        }
+      ],
+      "render": {
+        "template": "pants",
+        "color": "#d4c9b4",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "pants-05",
+      "name": "Athletic Straight Denim Jean",
+      "category": "pants",
+      "description": "Straight-leg denim with extra thigh room, a regular seat, and a longer inseam.",
+      "tags": [
+        "casual",
+        "denim",
+        "athletic_cut",
+        "long_inseam",
+        "straight_leg"
+      ],
+      "fabric": "99% cotton, 1% elastane denim",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28,
+            "hip": 37.5,
+            "thigh": 23,
+            "inseam": 34
+          },
+          "render_dimensions": {
+            "rise": 10.75,
+            "knee": 17.94,
+            "leg_opening": 16.1
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30,
+            "hip": 39.5,
+            "thigh": 24,
+            "inseam": 34
+          },
+          "render_dimensions": {
+            "rise": 11,
+            "knee": 18.72,
+            "leg_opening": 16.8
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32,
+            "hip": 41.5,
+            "thigh": 25,
+            "inseam": 34
+          },
+          "render_dimensions": {
+            "rise": 11.25,
+            "knee": 19.5,
+            "leg_opening": 17.5
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34,
+            "hip": 43.5,
+            "thigh": 26,
+            "inseam": 34
+          },
+          "render_dimensions": {
+            "rise": 11.5,
+            "knee": 20.28,
+            "leg_opening": 18.2
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36,
+            "hip": 45.5,
+            "thigh": 27,
+            "inseam": 34
+          },
+          "render_dimensions": {
+            "rise": 11.75,
+            "knee": 21.06,
+            "leg_opening": 18.9
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38,
+            "hip": 47.5,
+            "thigh": 28,
+            "inseam": 34
+          },
+          "render_dimensions": {
+            "rise": 12,
+            "knee": 21.84,
+            "leg_opening": 19.6
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40,
+            "hip": 49.5,
+            "thigh": 29,
+            "inseam": 34
+          },
+          "render_dimensions": {
+            "rise": 12.25,
+            "knee": 22.62,
+            "leg_opening": 20.3
+          }
+        }
+      ],
+      "render": {
+        "template": "pants",
+        "color": "#3b5773",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "pants-06",
+      "name": "Compact Slim Jean",
+      "category": "pants",
+      "description": "Slim denim with a shorter inseam and narrow seat and thigh proportions.",
+      "tags": [
+        "casual",
+        "denim",
+        "short_inseam",
+        "tapered_leg"
+      ],
+      "fabric": "97% cotton, 3% elastane denim",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 27.5,
+            "hip": 35.5,
+            "thigh": 20.5,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 10.75,
+            "knee": 14.15,
+            "leg_opening": 11.48
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 29.5,
+            "hip": 37.5,
+            "thigh": 21.5,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 11,
+            "knee": 14.84,
+            "leg_opening": 12.04
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 31.5,
+            "hip": 39.5,
+            "thigh": 22.5,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 11.25,
+            "knee": 15.52,
+            "leg_opening": 12.6
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 33.5,
+            "hip": 41.5,
+            "thigh": 23.5,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 11.5,
+            "knee": 16.22,
+            "leg_opening": 13.16
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 35.5,
+            "hip": 43.5,
+            "thigh": 24.5,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 11.75,
+            "knee": 16.9,
+            "leg_opening": 13.72
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 37.5,
+            "hip": 45.5,
+            "thigh": 25.5,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 12,
+            "knee": 17.6,
+            "leg_opening": 14.28
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 39.5,
+            "hip": 47.5,
+            "thigh": 26.5,
+            "inseam": 28
+          },
+          "render_dimensions": {
+            "rise": 12.25,
+            "knee": 18.29,
+            "leg_opening": 14.84
+          }
+        }
+      ],
+      "render": {
+        "template": "pants",
+        "color": "#363e4b",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "pants-07",
+      "name": "Weekend Knit Jogger",
+      "category": "pants",
+      "description": "Relaxed knit joggers with a drawstring waist and cuffed legs.",
+      "tags": [
+        "casual",
+        "loungewear",
+        "elastic_waist",
+        "cuffed"
+      ],
+      "fabric": "80% cotton, 15% polyester, 5% elastane knit",
+      "stretch": "moderate",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 26,
+            "hip": 39,
+            "thigh": 24,
+            "inseam": 29
+          },
+          "render_dimensions": {
+            "rise": 10.75,
+            "knee": 18.72,
+            "leg_opening": 10.32
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 28,
+            "hip": 41,
+            "thigh": 25,
+            "inseam": 29
+          },
+          "render_dimensions": {
+            "rise": 11,
+            "knee": 19.5,
+            "leg_opening": 10.75
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 30,
+            "hip": 43,
+            "thigh": 26,
+            "inseam": 29
+          },
+          "render_dimensions": {
+            "rise": 11.25,
+            "knee": 20.28,
+            "leg_opening": 11.18
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 32,
+            "hip": 45,
+            "thigh": 27,
+            "inseam": 29
+          },
+          "render_dimensions": {
+            "rise": 11.5,
+            "knee": 21.06,
+            "leg_opening": 11.61
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 34,
+            "hip": 47,
+            "thigh": 28,
+            "inseam": 29
+          },
+          "render_dimensions": {
+            "rise": 11.75,
+            "knee": 21.84,
+            "leg_opening": 12.04
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 36,
+            "hip": 49,
+            "thigh": 29,
+            "inseam": 29
+          },
+          "render_dimensions": {
+            "rise": 12,
+            "knee": 22.62,
+            "leg_opening": 12.47
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 38,
+            "hip": 51,
+            "thigh": 30,
+            "inseam": 29
+          },
+          "render_dimensions": {
+            "rise": 12.25,
+            "knee": 23.4,
+            "leg_opening": 12.9
+          }
+        }
+      ],
+      "render": {
+        "template": "pants",
+        "color": "#65716b",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "pants-08",
+      "name": "Travel Taper Pant",
+      "category": "pants",
+      "description": "Lightweight woven pants with a regular seat and tapered legs.",
+      "tags": [
+        "casual",
+        "travel",
+        "lightweight",
+        "tapered_leg"
+      ],
+      "fabric": "90% nylon, 10% elastane woven",
+      "stretch": "moderate",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28,
+            "hip": 37,
+            "thigh": 22,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 10.75,
+            "knee": 15.18,
+            "leg_opening": 12.32
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30,
+            "hip": 39,
+            "thigh": 23,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 11,
+            "knee": 15.87,
+            "leg_opening": 12.88
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32,
+            "hip": 41,
+            "thigh": 24,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 11.25,
+            "knee": 16.56,
+            "leg_opening": 13.44
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34,
+            "hip": 43,
+            "thigh": 25,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 11.5,
+            "knee": 17.25,
+            "leg_opening": 14
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36,
+            "hip": 45,
+            "thigh": 26,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 11.75,
+            "knee": 17.94,
+            "leg_opening": 14.56
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38,
+            "hip": 47,
+            "thigh": 27,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 12,
+            "knee": 18.63,
+            "leg_opening": 15.12
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40,
+            "hip": 49,
+            "thigh": 28,
+            "inseam": 30
+          },
+          "render_dimensions": {
+            "rise": 12.25,
+            "knee": 19.32,
+            "leg_opening": 15.68
+          }
+        }
+      ],
+      "render": {
+        "template": "pants",
+        "color": "#3e4b61",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "pants-09",
+      "name": "Curved Waist Utility Pant",
+      "category": "pants",
+      "description": "High-rise utility pants with a curved waistband, extra hip room relative to the waist, and a straight leg.",
+      "tags": [
+        "casual",
+        "utility",
+        "curvy_cut",
+        "high_rise",
+        "straight_leg"
+      ],
+      "fabric": "100% cotton ripstop",
+      "stretch": "none",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28.5,
+            "hip": 41.5,
+            "thigh": 23,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 12.5,
+            "knee": 17.94,
+            "leg_opening": 16.1
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30.5,
+            "hip": 43.5,
+            "thigh": 23.75,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 12.75,
+            "knee": 18.53,
+            "leg_opening": 16.63
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32.5,
+            "hip": 45.5,
+            "thigh": 24.5,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 13,
+            "knee": 19.11,
+            "leg_opening": 17.15
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34.5,
+            "hip": 47.5,
+            "thigh": 25.25,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 13.25,
+            "knee": 19.7,
+            "leg_opening": 17.67
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36.5,
+            "hip": 49.5,
+            "thigh": 26,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 13.5,
+            "knee": 20.28,
+            "leg_opening": 18.2
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38.5,
+            "hip": 51.5,
+            "thigh": 26.75,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 13.75,
+            "knee": 20.87,
+            "leg_opening": 18.72
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40.5,
+            "hip": 53.5,
+            "thigh": 27.5,
+            "inseam": 31
+          },
+          "render_dimensions": {
+            "rise": 14,
+            "knee": 21.45,
+            "leg_opening": 19.25
+          }
+        }
+      ],
+      "render": {
+        "template": "pants",
+        "color": "#777452",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "pants-10",
+      "name": "Straight Seat Dress Trouser",
+      "category": "pants",
+      "description": "Regular woven trousers with less hip fullness relative to the waistband, a straight leg, and a long hem.",
+      "tags": [
+        "smart_casual",
+        "dress",
+        "straight_seat",
+        "straight_leg",
+        "standard_rise"
+      ],
+      "fabric": "65% polyester, 33% rayon, 2% elastane woven",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "28",
+          "measurements": {
+            "waist": 28,
+            "hip": 36,
+            "thigh": 22,
+            "inseam": 33
+          },
+          "render_dimensions": {
+            "rise": 10.75,
+            "knee": 17.16,
+            "leg_opening": 15.4
+          }
+        },
+        {
+          "size": "30",
+          "measurements": {
+            "waist": 30,
+            "hip": 38,
+            "thigh": 23,
+            "inseam": 33
+          },
+          "render_dimensions": {
+            "rise": 11,
+            "knee": 17.94,
+            "leg_opening": 16.1
+          }
+        },
+        {
+          "size": "32",
+          "measurements": {
+            "waist": 32,
+            "hip": 40,
+            "thigh": 24,
+            "inseam": 33
+          },
+          "render_dimensions": {
+            "rise": 11.25,
+            "knee": 18.72,
+            "leg_opening": 16.8
+          }
+        },
+        {
+          "size": "34",
+          "measurements": {
+            "waist": 34,
+            "hip": 42,
+            "thigh": 25,
+            "inseam": 33
+          },
+          "render_dimensions": {
+            "rise": 11.5,
+            "knee": 19.5,
+            "leg_opening": 17.5
+          }
+        },
+        {
+          "size": "36",
+          "measurements": {
+            "waist": 36,
+            "hip": 44,
+            "thigh": 26,
+            "inseam": 33
+          },
+          "render_dimensions": {
+            "rise": 11.75,
+            "knee": 20.28,
+            "leg_opening": 18.2
+          }
+        },
+        {
+          "size": "38",
+          "measurements": {
+            "waist": 38,
+            "hip": 46,
+            "thigh": 27,
+            "inseam": 33
+          },
+          "render_dimensions": {
+            "rise": 12,
+            "knee": 21.06,
+            "leg_opening": 18.9
+          }
+        },
+        {
+          "size": "40",
+          "measurements": {
+            "waist": 40,
+            "hip": 48,
+            "thigh": 28,
+            "inseam": 33
+          },
+          "render_dimensions": {
+            "rise": 12.25,
+            "knee": 21.84,
+            "leg_opening": 19.6
+          }
+        }
+      ],
+      "render": {
+        "template": "pants",
+        "color": "#474650",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "short_sleeve_shirt-01",
+      "name": "Everyday Crew Tee",
+      "category": "short_sleeve_shirt",
+      "description": "A regular cotton crewneck with a straight hem and standard length.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "standard_length"
+      ],
+      "fabric": "100% cotton jersey",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 34,
+            "hem": 34,
+            "shoulder_width": 16,
+            "sleeve_length": 7.5,
+            "length": 26,
+            "upper_arm": 13
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 11.7
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 38,
+            "hem": 38,
+            "shoulder_width": 17,
+            "sleeve_length": 8,
+            "length": 27,
+            "upper_arm": 14
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 12.6
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 42,
+            "hem": 42,
+            "shoulder_width": 18,
+            "sleeve_length": 8.5,
+            "length": 28,
+            "upper_arm": 15
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 13.5
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 46,
+            "hem": 46,
+            "shoulder_width": 19,
+            "sleeve_length": 9,
+            "length": 29,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 14.4
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 50,
+            "shoulder_width": 20,
+            "sleeve_length": 9.5,
+            "length": 30,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 15.3
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 54,
+            "shoulder_width": 21,
+            "sleeve_length": 10,
+            "length": 31,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 16.2
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 58,
+            "shoulder_width": 22,
+            "sleeve_length": 10.5,
+            "length": 32,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 17.1
+          }
+        }
+      ],
+      "render": {
+        "template": "short_sleeve_shirt",
+        "color": "#b76648",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "short_sleeve_shirt-02",
+      "name": "Fitted Stretch Crew",
+      "category": "short_sleeve_shirt",
+      "description": "A close-cut stretch crewneck with a slightly shaped hem.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "fitted"
+      ],
+      "fabric": "95% cotton, 5% elastane jersey",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 31,
+            "hem": 30,
+            "shoulder_width": 15,
+            "sleeve_length": 7,
+            "length": 25,
+            "upper_arm": 11.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 10.35
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 35,
+            "hem": 34,
+            "shoulder_width": 16,
+            "sleeve_length": 7.5,
+            "length": 26,
+            "upper_arm": 12.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 11.25
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 39,
+            "hem": 38,
+            "shoulder_width": 17,
+            "sleeve_length": 8,
+            "length": 27,
+            "upper_arm": 13.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 12.15
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 43,
+            "hem": 42,
+            "shoulder_width": 18,
+            "sleeve_length": 8.5,
+            "length": 28,
+            "upper_arm": 14.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 13.05
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 47,
+            "hem": 46,
+            "shoulder_width": 19,
+            "sleeve_length": 9,
+            "length": 29,
+            "upper_arm": 15.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 13.95
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 51,
+            "hem": 50,
+            "shoulder_width": 20,
+            "sleeve_length": 9.5,
+            "length": 30,
+            "upper_arm": 16.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 14.85
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 55,
+            "hem": 54,
+            "shoulder_width": 21,
+            "sleeve_length": 10,
+            "length": 31,
+            "upper_arm": 17.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 15.75
+          }
+        }
+      ],
+      "render": {
+        "template": "short_sleeve_shirt",
+        "color": "#4b596d",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "short_sleeve_shirt-03",
+      "name": "Boxy Heavyweight Tee",
+      "category": "short_sleeve_shirt",
+      "description": "A wide, shorter tee with dropped shoulders and generous sleeves.",
+      "tags": [
+        "casual",
+        "boxy",
+        "heavyweight",
+        "drop_shoulder",
+        "short_length"
+      ],
+      "fabric": "100% heavyweight cotton jersey",
+      "stretch": "low",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 38,
+            "hem": 38,
+            "shoulder_width": 19,
+            "sleeve_length": 8,
+            "length": 24,
+            "upper_arm": 15
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 13.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 42,
+            "hem": 42,
+            "shoulder_width": 20,
+            "sleeve_length": 8.5,
+            "length": 25,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 14.4
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 46,
+            "hem": 46,
+            "shoulder_width": 21,
+            "sleeve_length": 9,
+            "length": 26,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 15.3
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 50,
+            "hem": 50,
+            "shoulder_width": 22,
+            "sleeve_length": 9.5,
+            "length": 27,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 16.2
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 54,
+            "shoulder_width": 23,
+            "sleeve_length": 10,
+            "length": 28,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 17.1
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 58,
+            "shoulder_width": 24,
+            "sleeve_length": 10.5,
+            "length": 29,
+            "upper_arm": 20
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 18
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 62,
+            "hem": 62,
+            "shoulder_width": 25,
+            "sleeve_length": 11,
+            "length": 30,
+            "upper_arm": 21
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 18.9
+          }
+        }
+      ],
+      "render": {
+        "template": "short_sleeve_shirt",
+        "color": "#d3c5aa",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "short_sleeve_shirt-04",
+      "name": "Linen Camp Shirt",
+      "category": "short_sleeve_shirt",
+      "description": "A relaxed woven camp-collar shirt with a straight hem.",
+      "tags": [
+        "casual",
+        "warm_weather",
+        "camp_collar",
+        "button_front"
+      ],
+      "fabric": "100% linen woven",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 37,
+            "hem": 37,
+            "shoulder_width": 17,
+            "sleeve_length": 8.5,
+            "length": 26,
+            "upper_arm": 15
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.3,
+            "cuff": 13.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 41,
+            "hem": 41,
+            "shoulder_width": 18,
+            "sleeve_length": 9,
+            "length": 27,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.3,
+            "cuff": 14.4
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 45,
+            "hem": 45,
+            "shoulder_width": 19,
+            "sleeve_length": 9.5,
+            "length": 28,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.3,
+            "cuff": 15.3
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 49,
+            "hem": 49,
+            "shoulder_width": 20,
+            "sleeve_length": 10,
+            "length": 29,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.3,
+            "cuff": 16.2
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 53,
+            "hem": 53,
+            "shoulder_width": 21,
+            "sleeve_length": 10.5,
+            "length": 30,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.3,
+            "cuff": 17.1
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 57,
+            "hem": 57,
+            "shoulder_width": 22,
+            "sleeve_length": 11,
+            "length": 31,
+            "upper_arm": 20
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.3,
+            "cuff": 18
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 61,
+            "hem": 61,
+            "shoulder_width": 23,
+            "sleeve_length": 11.5,
+            "length": 32,
+            "upper_arm": 21
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.3,
+            "cuff": 18.9
+          }
+        }
+      ],
+      "render": {
+        "template": "short_sleeve_shirt",
+        "color": "#70877e",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "collar",
+        "closure": "buttons"
+      }
+    },
+    {
+      "id": "short_sleeve_shirt-05",
+      "name": "Pique Polo",
+      "category": "short_sleeve_shirt",
+      "description": "A regular short-sleeve polo with a collar and straight hem.",
+      "tags": [
+        "casual",
+        "smart_casual",
+        "polo"
+      ],
+      "fabric": "97% cotton, 3% elastane pique",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 34,
+            "hem": 33,
+            "shoulder_width": 16,
+            "sleeve_length": 8,
+            "length": 26.5,
+            "upper_arm": 13
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.3,
+            "cuff": 11.7
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 38,
+            "hem": 37,
+            "shoulder_width": 17,
+            "sleeve_length": 8.5,
+            "length": 27.5,
+            "upper_arm": 14
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.3,
+            "cuff": 12.6
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 42,
+            "hem": 41,
+            "shoulder_width": 18,
+            "sleeve_length": 9,
+            "length": 28.5,
+            "upper_arm": 15
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.3,
+            "cuff": 13.5
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 46,
+            "hem": 45,
+            "shoulder_width": 19,
+            "sleeve_length": 9.5,
+            "length": 29.5,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.3,
+            "cuff": 14.4
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 49,
+            "shoulder_width": 20,
+            "sleeve_length": 10,
+            "length": 30.5,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.3,
+            "cuff": 15.3
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 53,
+            "shoulder_width": 21,
+            "sleeve_length": 10.5,
+            "length": 31.5,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.3,
+            "cuff": 16.2
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 57,
+            "shoulder_width": 22,
+            "sleeve_length": 11,
+            "length": 32.5,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.3,
+            "cuff": 17.1
+          }
+        }
+      ],
+      "render": {
+        "template": "short_sleeve_shirt",
+        "color": "#314c65",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "collar",
+        "closure": "placket"
+      }
+    },
+    {
+      "id": "short_sleeve_shirt-06",
+      "name": "Longline Jersey Tee",
+      "category": "short_sleeve_shirt",
+      "description": "A regular crewneck with extra body length and a straight hem.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "longline"
+      ],
+      "fabric": "60% cotton, 40% modal jersey",
+      "stretch": "moderate",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 34,
+            "hem": 35,
+            "shoulder_width": 16,
+            "sleeve_length": 8,
+            "length": 29,
+            "upper_arm": 13.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 12.15
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 38,
+            "hem": 39,
+            "shoulder_width": 17,
+            "sleeve_length": 8.5,
+            "length": 30,
+            "upper_arm": 14.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 13.05
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 42,
+            "hem": 43,
+            "shoulder_width": 18,
+            "sleeve_length": 9,
+            "length": 31,
+            "upper_arm": 15.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 13.95
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 46,
+            "hem": 47,
+            "shoulder_width": 19,
+            "sleeve_length": 9.5,
+            "length": 32,
+            "upper_arm": 16.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 14.85
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 51,
+            "shoulder_width": 20,
+            "sleeve_length": 10,
+            "length": 33,
+            "upper_arm": 17.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 15.75
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 55,
+            "shoulder_width": 21,
+            "sleeve_length": 10.5,
+            "length": 34,
+            "upper_arm": 18.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 16.65
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 59,
+            "shoulder_width": 22,
+            "sleeve_length": 11,
+            "length": 35,
+            "upper_arm": 19.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 17.55
+          }
+        }
+      ],
+      "render": {
+        "template": "short_sleeve_shirt",
+        "color": "#97859a",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "short_sleeve_shirt-07",
+      "name": "Airy Pocket Shirt",
+      "category": "short_sleeve_shirt",
+      "description": "A light woven short-sleeve shirt with roomy chest and arm openings.",
+      "tags": [
+        "casual",
+        "warm_weather",
+        "button_front",
+        "pocket"
+      ],
+      "fabric": "55% linen, 45% cotton woven",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 38,
+            "hem": 38,
+            "shoulder_width": 17.5,
+            "sleeve_length": 9,
+            "length": 27,
+            "upper_arm": 15.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.3,
+            "cuff": 13.95
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 42,
+            "hem": 42,
+            "shoulder_width": 18.5,
+            "sleeve_length": 9.5,
+            "length": 28,
+            "upper_arm": 16.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.3,
+            "cuff": 14.85
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 46,
+            "hem": 46,
+            "shoulder_width": 19.5,
+            "sleeve_length": 10,
+            "length": 29,
+            "upper_arm": 17.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.3,
+            "cuff": 15.75
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 50,
+            "hem": 50,
+            "shoulder_width": 20.5,
+            "sleeve_length": 10.5,
+            "length": 30,
+            "upper_arm": 18.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.3,
+            "cuff": 16.65
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 54,
+            "shoulder_width": 21.5,
+            "sleeve_length": 11,
+            "length": 31,
+            "upper_arm": 19.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.3,
+            "cuff": 17.55
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 58,
+            "shoulder_width": 22.5,
+            "sleeve_length": 11.5,
+            "length": 32,
+            "upper_arm": 20.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.3,
+            "cuff": 18.45
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 62,
+            "hem": 62,
+            "shoulder_width": 23.5,
+            "sleeve_length": 12,
+            "length": 33,
+            "upper_arm": 21.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.3,
+            "cuff": 19.35
+          }
+        }
+      ],
+      "render": {
+        "template": "short_sleeve_shirt",
+        "color": "#b5a994",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "collar",
+        "closure": "buttons"
+      }
+    },
+    {
+      "id": "short_sleeve_shirt-08",
+      "name": "Active Stretch Tee",
+      "category": "short_sleeve_shirt",
+      "description": "A fitted stretch tee with conventional shoulder seams and short sleeves.",
+      "tags": [
+        "casual",
+        "active",
+        "lightweight"
+      ],
+      "fabric": "88% polyester, 12% elastane jersey",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 32,
+            "hem": 31,
+            "shoulder_width": 15.5,
+            "sleeve_length": 7.5,
+            "length": 26,
+            "upper_arm": 12
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 10.8
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 36,
+            "hem": 35,
+            "shoulder_width": 16.5,
+            "sleeve_length": 8,
+            "length": 27,
+            "upper_arm": 13
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 11.7
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 40,
+            "hem": 39,
+            "shoulder_width": 17.5,
+            "sleeve_length": 8.5,
+            "length": 28,
+            "upper_arm": 14
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 12.6
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 44,
+            "hem": 43,
+            "shoulder_width": 18.5,
+            "sleeve_length": 9,
+            "length": 29,
+            "upper_arm": 15
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 13.5
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 48,
+            "hem": 47,
+            "shoulder_width": 19.5,
+            "sleeve_length": 9.5,
+            "length": 30,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 14.4
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 52,
+            "hem": 51,
+            "shoulder_width": 20.5,
+            "sleeve_length": 10,
+            "length": 31,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 15.3
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 56,
+            "hem": 55,
+            "shoulder_width": 21.5,
+            "sleeve_length": 10.5,
+            "length": 32,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 16.2
+          }
+        }
+      ],
+      "render": {
+        "template": "short_sleeve_shirt",
+        "color": "#567b83",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "short_sleeve_shirt-09",
+      "name": "Compact Rib Tee",
+      "category": "short_sleeve_shirt",
+      "description": "A shorter, close-cut ribbed crewneck with narrow sleeves.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "ribbed",
+        "short_length"
+      ],
+      "fabric": "95% cotton, 5% elastane rib knit",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 30,
+            "hem": 29,
+            "shoulder_width": 14.5,
+            "sleeve_length": 6.5,
+            "length": 23,
+            "upper_arm": 11
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 9.9
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 34,
+            "hem": 33,
+            "shoulder_width": 15.5,
+            "sleeve_length": 7,
+            "length": 24,
+            "upper_arm": 12
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 10.8
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 38,
+            "hem": 37,
+            "shoulder_width": 16.5,
+            "sleeve_length": 7.5,
+            "length": 25,
+            "upper_arm": 13
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 11.7
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 42,
+            "hem": 41,
+            "shoulder_width": 17.5,
+            "sleeve_length": 8,
+            "length": 26,
+            "upper_arm": 14
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 12.6
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 46,
+            "hem": 45,
+            "shoulder_width": 18.5,
+            "sleeve_length": 8.5,
+            "length": 27,
+            "upper_arm": 15
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 13.5
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 49,
+            "shoulder_width": 19.5,
+            "sleeve_length": 9,
+            "length": 28,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 14.4
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 53,
+            "shoulder_width": 20.5,
+            "sleeve_length": 9.5,
+            "length": 29,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 15.3
+          }
+        }
+      ],
+      "render": {
+        "template": "short_sleeve_shirt",
+        "color": "#9f665d",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "short_sleeve_shirt-10",
+      "name": "Relaxed Cotton Henley",
+      "category": "short_sleeve_shirt",
+      "description": "A roomy short-sleeve henley with a partial button placket.",
+      "tags": [
+        "casual",
+        "henley",
+        "standard_length"
+      ],
+      "fabric": "100% cotton slub jersey",
+      "stretch": "low",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 37,
+            "hem": 36,
+            "shoulder_width": 17,
+            "sleeve_length": 8.5,
+            "length": 27,
+            "upper_arm": 14.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 13.05
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 41,
+            "hem": 40,
+            "shoulder_width": 18,
+            "sleeve_length": 9,
+            "length": 28,
+            "upper_arm": 15.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 13.95
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 45,
+            "hem": 44,
+            "shoulder_width": 19,
+            "sleeve_length": 9.5,
+            "length": 29,
+            "upper_arm": 16.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 14.85
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 49,
+            "hem": 48,
+            "shoulder_width": 20,
+            "sleeve_length": 10,
+            "length": 30,
+            "upper_arm": 17.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 15.75
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 53,
+            "hem": 52,
+            "shoulder_width": 21,
+            "sleeve_length": 10.5,
+            "length": 31,
+            "upper_arm": 18.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 16.65
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 57,
+            "hem": 56,
+            "shoulder_width": 22,
+            "sleeve_length": 11,
+            "length": 32,
+            "upper_arm": 19.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 17.55
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 61,
+            "hem": 60,
+            "shoulder_width": 23,
+            "sleeve_length": 11.5,
+            "length": 33,
+            "upper_arm": 20.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 18.45
+          }
+        }
+      ],
+      "render": {
+        "template": "short_sleeve_shirt",
+        "color": "#657361",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "placket"
+      }
+    },
+    {
+      "id": "hoodie-01",
+      "name": "Everyday Pullover Hoodie",
+      "category": "hoodie",
+      "description": "A regular fleece pullover with a ribbed hem and standard-length sleeves.",
+      "tags": [
+        "casual",
+        "pullover",
+        "fleece",
+        "layering"
+      ],
+      "fabric": "80% cotton, 20% polyester fleece",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 38,
+            "hem": 34,
+            "shoulder_width": 18,
+            "sleeve_length": 24.25,
+            "length": 26,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1,
+            "hood_height": 12,
+            "hood_width": 9.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 42,
+            "hem": 38,
+            "shoulder_width": 19,
+            "sleeve_length": 24.625,
+            "length": 27,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5,
+            "hood_height": 12.2,
+            "hood_width": 9.7
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 46,
+            "hem": 42,
+            "shoulder_width": 20,
+            "sleeve_length": 25,
+            "length": 28,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9,
+            "hood_height": 12.4,
+            "hood_width": 9.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 50,
+            "hem": 46,
+            "shoulder_width": 21,
+            "sleeve_length": 25.375,
+            "length": 29,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3,
+            "hood_height": 12.6,
+            "hood_width": 10.1
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 50,
+            "shoulder_width": 22,
+            "sleeve_length": 25.75,
+            "length": 30,
+            "upper_arm": 20
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7,
+            "hood_height": 12.8,
+            "hood_width": 10.3
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 54,
+            "shoulder_width": 23,
+            "sleeve_length": 26.125,
+            "length": 31,
+            "upper_arm": 21
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1,
+            "hood_height": 13,
+            "hood_width": 10.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 62,
+            "hem": 58,
+            "shoulder_width": 24,
+            "sleeve_length": 26.5,
+            "length": 32,
+            "upper_arm": 22
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5,
+            "hood_height": 13.2,
+            "hood_width": 10.7
+          }
+        }
+      ],
+      "render": {
+        "template": "hoodie",
+        "color": "#73848c",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "hoodie-02",
+      "name": "Narrow Sleeve French Terry Hoodie",
+      "category": "hoodie",
+      "description": "A close-cut pullover in light stretch French terry with narrower upper sleeves and a shaped hem.",
+      "tags": [
+        "casual",
+        "pullover",
+        "french_terry",
+        "lightweight",
+        "narrow_sleeve"
+      ],
+      "fabric": "95% cotton, 5% elastane French terry",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 34,
+            "hem": 31,
+            "shoulder_width": 16.5,
+            "sleeve_length": 24.75,
+            "length": 25.5,
+            "upper_arm": 12
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1,
+            "hood_height": 12,
+            "hood_width": 9.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 38,
+            "hem": 35,
+            "shoulder_width": 17.5,
+            "sleeve_length": 25.125,
+            "length": 26.5,
+            "upper_arm": 13
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5,
+            "hood_height": 12.2,
+            "hood_width": 9.7
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 42,
+            "hem": 39,
+            "shoulder_width": 18.5,
+            "sleeve_length": 25.5,
+            "length": 27.5,
+            "upper_arm": 14
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9,
+            "hood_height": 12.4,
+            "hood_width": 9.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 46,
+            "hem": 43,
+            "shoulder_width": 19.5,
+            "sleeve_length": 25.875,
+            "length": 28.5,
+            "upper_arm": 15
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3,
+            "hood_height": 12.6,
+            "hood_width": 10.1
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 47,
+            "shoulder_width": 20.5,
+            "sleeve_length": 26.25,
+            "length": 29.5,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7,
+            "hood_height": 12.8,
+            "hood_width": 10.3
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 51,
+            "shoulder_width": 21.5,
+            "sleeve_length": 26.625,
+            "length": 30.5,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1,
+            "hood_height": 13,
+            "hood_width": 10.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 55,
+            "shoulder_width": 22.5,
+            "sleeve_length": 27,
+            "length": 31.5,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5,
+            "hood_height": 13.2,
+            "hood_width": 10.7
+          }
+        }
+      ],
+      "render": {
+        "template": "hoodie",
+        "color": "#8b7569",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "hoodie-03",
+      "name": "Roomy Drop Shoulder Hoodie",
+      "category": "hoodie",
+      "description": "A wide fleece pullover with dropped shoulders and generous body ease.",
+      "tags": [
+        "casual",
+        "pullover",
+        "drop_shoulder",
+        "oversized",
+        "layering"
+      ],
+      "fabric": "85% cotton, 15% polyester fleece",
+      "stretch": "low",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 42,
+            "hem": 38,
+            "shoulder_width": 22,
+            "sleeve_length": 22.25,
+            "length": 27,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1,
+            "hood_height": 12,
+            "hood_width": 9.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 46,
+            "hem": 42,
+            "shoulder_width": 23,
+            "sleeve_length": 22.625,
+            "length": 28,
+            "upper_arm": 20
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5,
+            "hood_height": 12.2,
+            "hood_width": 9.7
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 50,
+            "hem": 46,
+            "shoulder_width": 24,
+            "sleeve_length": 23,
+            "length": 29,
+            "upper_arm": 21
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9,
+            "hood_height": 12.4,
+            "hood_width": 9.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 54,
+            "hem": 50,
+            "shoulder_width": 25,
+            "sleeve_length": 23.375,
+            "length": 30,
+            "upper_arm": 22
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3,
+            "hood_height": 12.6,
+            "hood_width": 10.1
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 54,
+            "shoulder_width": 26,
+            "sleeve_length": 23.75,
+            "length": 31,
+            "upper_arm": 23
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7,
+            "hood_height": 12.8,
+            "hood_width": 10.3
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 62,
+            "hem": 58,
+            "shoulder_width": 27,
+            "sleeve_length": 24.125,
+            "length": 32,
+            "upper_arm": 24
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1,
+            "hood_height": 13,
+            "hood_width": 10.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 66,
+            "hem": 62,
+            "shoulder_width": 28,
+            "sleeve_length": 24.5,
+            "length": 33,
+            "upper_arm": 25
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5,
+            "hood_height": 13.2,
+            "hood_width": 10.7
+          }
+        }
+      ],
+      "render": {
+        "template": "hoodie",
+        "color": "#526d65",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "hoodie-04",
+      "name": "Cropped Box Hoodie",
+      "category": "hoodie",
+      "description": "A boxy pullover with a short body and roomy sleeves.",
+      "tags": [
+        "casual",
+        "pullover",
+        "cropped",
+        "boxy",
+        "drop_shoulder"
+      ],
+      "fabric": "100% cotton French terry",
+      "stretch": "low",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 40,
+            "hem": 37,
+            "shoulder_width": 20,
+            "sleeve_length": 23.25,
+            "length": 22.5,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1,
+            "hood_height": 12,
+            "hood_width": 9.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 44,
+            "hem": 41,
+            "shoulder_width": 21,
+            "sleeve_length": 23.625,
+            "length": 23.5,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5,
+            "hood_height": 12.2,
+            "hood_width": 9.7
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 48,
+            "hem": 45,
+            "shoulder_width": 22,
+            "sleeve_length": 24,
+            "length": 24.5,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9,
+            "hood_height": 12.4,
+            "hood_width": 9.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 52,
+            "hem": 49,
+            "shoulder_width": 23,
+            "sleeve_length": 24.375,
+            "length": 25.5,
+            "upper_arm": 20
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3,
+            "hood_height": 12.6,
+            "hood_width": 10.1
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 56,
+            "hem": 53,
+            "shoulder_width": 24,
+            "sleeve_length": 24.75,
+            "length": 26.5,
+            "upper_arm": 21
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7,
+            "hood_height": 12.8,
+            "hood_width": 10.3
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 60,
+            "hem": 57,
+            "shoulder_width": 25,
+            "sleeve_length": 25.125,
+            "length": 27.5,
+            "upper_arm": 22
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1,
+            "hood_height": 13,
+            "hood_width": 10.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 64,
+            "hem": 61,
+            "shoulder_width": 26,
+            "sleeve_length": 25.5,
+            "length": 28.5,
+            "upper_arm": 23
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5,
+            "hood_height": 13.2,
+            "hood_width": 10.7
+          }
+        }
+      ],
+      "render": {
+        "template": "hoodie",
+        "color": "#b58170",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "hoodie-05",
+      "name": "Full Zip Jersey Hoodie",
+      "category": "hoodie",
+      "description": "A regular zip-front hoodie in lightweight stretch jersey.",
+      "tags": [
+        "casual",
+        "full_zip",
+        "lightweight",
+        "layering"
+      ],
+      "fabric": "92% cotton, 8% elastane jersey",
+      "stretch": "moderate",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 36,
+            "hem": 34,
+            "shoulder_width": 17.5,
+            "sleeve_length": 24.75,
+            "length": 26.5,
+            "upper_arm": 15
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1,
+            "hood_height": 12,
+            "hood_width": 9.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 40,
+            "hem": 38,
+            "shoulder_width": 18.5,
+            "sleeve_length": 25.125,
+            "length": 27.5,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5,
+            "hood_height": 12.2,
+            "hood_width": 9.7
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 44,
+            "hem": 42,
+            "shoulder_width": 19.5,
+            "sleeve_length": 25.5,
+            "length": 28.5,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9,
+            "hood_height": 12.4,
+            "hood_width": 9.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 48,
+            "hem": 46,
+            "shoulder_width": 20.5,
+            "sleeve_length": 25.875,
+            "length": 29.5,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3,
+            "hood_height": 12.6,
+            "hood_width": 10.1
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 52,
+            "hem": 50,
+            "shoulder_width": 21.5,
+            "sleeve_length": 26.25,
+            "length": 30.5,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7,
+            "hood_height": 12.8,
+            "hood_width": 10.3
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 56,
+            "hem": 54,
+            "shoulder_width": 22.5,
+            "sleeve_length": 26.625,
+            "length": 31.5,
+            "upper_arm": 20
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1,
+            "hood_height": 13,
+            "hood_width": 10.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 60,
+            "hem": 58,
+            "shoulder_width": 23.5,
+            "sleeve_length": 27,
+            "length": 32.5,
+            "upper_arm": 21
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5,
+            "hood_height": 13.2,
+            "hood_width": 10.7
+          }
+        }
+      ],
+      "render": {
+        "template": "hoodie",
+        "color": "#565968",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "zip"
+      }
+    },
+    {
+      "id": "hoodie-06",
+      "name": "Longline Fleece Hoodie",
+      "category": "hoodie",
+      "description": "A regular pullover with added body and sleeve length.",
+      "tags": [
+        "casual",
+        "pullover",
+        "longline",
+        "long_sleeve_length"
+      ],
+      "fabric": "70% cotton, 30% polyester fleece",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 38,
+            "hem": 35,
+            "shoulder_width": 18,
+            "sleeve_length": 26.25,
+            "length": 30,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1,
+            "hood_height": 12,
+            "hood_width": 9.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 42,
+            "hem": 39,
+            "shoulder_width": 19,
+            "sleeve_length": 26.625,
+            "length": 31,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5,
+            "hood_height": 12.2,
+            "hood_width": 9.7
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 46,
+            "hem": 43,
+            "shoulder_width": 20,
+            "sleeve_length": 27,
+            "length": 32,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9,
+            "hood_height": 12.4,
+            "hood_width": 9.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 50,
+            "hem": 47,
+            "shoulder_width": 21,
+            "sleeve_length": 27.375,
+            "length": 33,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3,
+            "hood_height": 12.6,
+            "hood_width": 10.1
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 51,
+            "shoulder_width": 22,
+            "sleeve_length": 27.75,
+            "length": 34,
+            "upper_arm": 20
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7,
+            "hood_height": 12.8,
+            "hood_width": 10.3
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 55,
+            "shoulder_width": 23,
+            "sleeve_length": 28.125,
+            "length": 35,
+            "upper_arm": 21
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1,
+            "hood_height": 13,
+            "hood_width": 10.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 62,
+            "hem": 59,
+            "shoulder_width": 24,
+            "sleeve_length": 28.5,
+            "length": 36,
+            "upper_arm": 22
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5,
+            "hood_height": 13.2,
+            "hood_width": 10.7
+          }
+        }
+      ],
+      "render": {
+        "template": "hoodie",
+        "color": "#897b98",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "hoodie-07",
+      "name": "Relaxed Thermal Hoodie",
+      "category": "hoodie",
+      "description": "A relaxed pullover in textured waffle knit with a straight hem.",
+      "tags": [
+        "casual",
+        "pullover",
+        "waffle",
+        "straight_hem"
+      ],
+      "fabric": "60% cotton, 35% polyester, 5% elastane waffle knit",
+      "stretch": "moderate",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 40,
+            "hem": 40,
+            "shoulder_width": 19,
+            "sleeve_length": 24.25,
+            "length": 27,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1,
+            "hood_height": 12,
+            "hood_width": 9.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 44,
+            "hem": 44,
+            "shoulder_width": 20,
+            "sleeve_length": 24.625,
+            "length": 28,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5,
+            "hood_height": 12.2,
+            "hood_width": 9.7
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 48,
+            "hem": 48,
+            "shoulder_width": 21,
+            "sleeve_length": 25,
+            "length": 29,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9,
+            "hood_height": 12.4,
+            "hood_width": 9.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 52,
+            "hem": 52,
+            "shoulder_width": 22,
+            "sleeve_length": 25.375,
+            "length": 30,
+            "upper_arm": 20
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3,
+            "hood_height": 12.6,
+            "hood_width": 10.1
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 56,
+            "hem": 56,
+            "shoulder_width": 23,
+            "sleeve_length": 25.75,
+            "length": 31,
+            "upper_arm": 21
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7,
+            "hood_height": 12.8,
+            "hood_width": 10.3
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 60,
+            "hem": 60,
+            "shoulder_width": 24,
+            "sleeve_length": 26.125,
+            "length": 32,
+            "upper_arm": 22
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1,
+            "hood_height": 13,
+            "hood_width": 10.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 64,
+            "hem": 64,
+            "shoulder_width": 25,
+            "sleeve_length": 26.5,
+            "length": 33,
+            "upper_arm": 23
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5,
+            "hood_height": 13.2,
+            "hood_width": 10.7
+          }
+        }
+      ],
+      "render": {
+        "template": "hoodie",
+        "color": "#b2a087",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "hoodie-08",
+      "name": "Compact Zip Hoodie",
+      "category": "hoodie",
+      "description": "A close-fitting zip hoodie with a shorter body and sleeve length.",
+      "tags": [
+        "casual",
+        "full_zip",
+        "short_length",
+        "short_sleeve_length"
+      ],
+      "fabric": "80% cotton, 15% polyester, 5% elastane French terry",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 34,
+            "hem": 31,
+            "shoulder_width": 16,
+            "sleeve_length": 23.25,
+            "length": 23.5,
+            "upper_arm": 13.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1,
+            "hood_height": 12,
+            "hood_width": 9.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 38,
+            "hem": 35,
+            "shoulder_width": 17,
+            "sleeve_length": 23.625,
+            "length": 24.5,
+            "upper_arm": 14.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5,
+            "hood_height": 12.2,
+            "hood_width": 9.7
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 42,
+            "hem": 39,
+            "shoulder_width": 18,
+            "sleeve_length": 24,
+            "length": 25.5,
+            "upper_arm": 15.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9,
+            "hood_height": 12.4,
+            "hood_width": 9.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 46,
+            "hem": 43,
+            "shoulder_width": 19,
+            "sleeve_length": 24.375,
+            "length": 26.5,
+            "upper_arm": 16.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3,
+            "hood_height": 12.6,
+            "hood_width": 10.1
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 47,
+            "shoulder_width": 20,
+            "sleeve_length": 24.75,
+            "length": 27.5,
+            "upper_arm": 17.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7,
+            "hood_height": 12.8,
+            "hood_width": 10.3
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 51,
+            "shoulder_width": 21,
+            "sleeve_length": 25.125,
+            "length": 28.5,
+            "upper_arm": 18.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1,
+            "hood_height": 13,
+            "hood_width": 10.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 55,
+            "shoulder_width": 22,
+            "sleeve_length": 25.5,
+            "length": 29.5,
+            "upper_arm": 19.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5,
+            "hood_height": 13.2,
+            "hood_width": 10.7
+          }
+        }
+      ],
+      "render": {
+        "template": "hoodie",
+        "color": "#547682",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "zip"
+      }
+    },
+    {
+      "id": "hoodie-09",
+      "name": "Heavyweight Weekend Hoodie",
+      "category": "hoodie",
+      "description": "A generous heavyweight fleece pullover with a roomy chest and upper arms.",
+      "tags": [
+        "casual",
+        "pullover",
+        "heavyweight",
+        "layering",
+        "drop_shoulder"
+      ],
+      "fabric": "100% cotton heavyweight fleece",
+      "stretch": "low",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 44,
+            "hem": 39,
+            "shoulder_width": 21,
+            "sleeve_length": 23.75,
+            "length": 28,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1,
+            "hood_height": 12,
+            "hood_width": 9.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 48,
+            "hem": 43,
+            "shoulder_width": 22,
+            "sleeve_length": 24.125,
+            "length": 29,
+            "upper_arm": 20
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5,
+            "hood_height": 12.2,
+            "hood_width": 9.7
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 52,
+            "hem": 47,
+            "shoulder_width": 23,
+            "sleeve_length": 24.5,
+            "length": 30,
+            "upper_arm": 21
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9,
+            "hood_height": 12.4,
+            "hood_width": 9.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 56,
+            "hem": 51,
+            "shoulder_width": 24,
+            "sleeve_length": 24.875,
+            "length": 31,
+            "upper_arm": 22
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3,
+            "hood_height": 12.6,
+            "hood_width": 10.1
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 60,
+            "hem": 55,
+            "shoulder_width": 25,
+            "sleeve_length": 25.25,
+            "length": 32,
+            "upper_arm": 23
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7,
+            "hood_height": 12.8,
+            "hood_width": 10.3
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 64,
+            "hem": 59,
+            "shoulder_width": 26,
+            "sleeve_length": 25.625,
+            "length": 33,
+            "upper_arm": 24
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1,
+            "hood_height": 13,
+            "hood_width": 10.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 68,
+            "hem": 63,
+            "shoulder_width": 27,
+            "sleeve_length": 26,
+            "length": 34,
+            "upper_arm": 25
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5,
+            "hood_height": 13.2,
+            "hood_width": 10.7
+          }
+        }
+      ],
+      "render": {
+        "template": "hoodie",
+        "color": "#a18b70",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "hoodie-10",
+      "name": "Streamlined Travel Zip Hoodie",
+      "category": "hoodie",
+      "description": "A regular zip-front hoodie with a roomy torso, tapered upper sleeves, and a straight hem.",
+      "tags": [
+        "casual",
+        "full_zip",
+        "travel",
+        "straight_hem",
+        "tapered_sleeve"
+      ],
+      "fabric": "75% polyester, 20% rayon, 5% elastane double knit",
+      "stretch": "moderate",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 37,
+            "hem": 36,
+            "shoulder_width": 17,
+            "sleeve_length": 25.25,
+            "length": 27,
+            "upper_arm": 14.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1,
+            "hood_height": 12,
+            "hood_width": 9.5
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 41,
+            "hem": 40,
+            "shoulder_width": 18,
+            "sleeve_length": 25.625,
+            "length": 28,
+            "upper_arm": 15.25
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5,
+            "hood_height": 12.2,
+            "hood_width": 9.7
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 45,
+            "hem": 44,
+            "shoulder_width": 19,
+            "sleeve_length": 26,
+            "length": 29,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9,
+            "hood_height": 12.4,
+            "hood_width": 9.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 49,
+            "hem": 48,
+            "shoulder_width": 20,
+            "sleeve_length": 26.375,
+            "length": 30,
+            "upper_arm": 16.75
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3,
+            "hood_height": 12.6,
+            "hood_width": 10.1
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 53,
+            "hem": 52,
+            "shoulder_width": 21,
+            "sleeve_length": 26.75,
+            "length": 31,
+            "upper_arm": 17.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7,
+            "hood_height": 12.8,
+            "hood_width": 10.3
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 57,
+            "hem": 56,
+            "shoulder_width": 22,
+            "sleeve_length": 27.125,
+            "length": 32,
+            "upper_arm": 18.25
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1,
+            "hood_height": 13,
+            "hood_width": 10.5
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 61,
+            "hem": 60,
+            "shoulder_width": 23,
+            "sleeve_length": 27.5,
+            "length": 33,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5,
+            "hood_height": 13.2,
+            "hood_width": 10.7
+          }
+        }
+      ],
+      "render": {
+        "template": "hoodie",
+        "color": "#49586b",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "zip"
+      }
+    },
+    {
+      "id": "long_sleeve_shirt-01",
+      "name": "Everyday Long Sleeve Crew",
+      "category": "long_sleeve_shirt",
+      "description": "A regular cotton jersey crewneck with conventional shoulder seams.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "standard_length"
+      ],
+      "fabric": "100% cotton jersey",
+      "stretch": "low",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 34,
+            "hem": 34,
+            "shoulder_width": 16,
+            "sleeve_length": 24.75,
+            "length": 26,
+            "upper_arm": 13
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 38,
+            "hem": 38,
+            "shoulder_width": 17,
+            "sleeve_length": 25.125,
+            "length": 27,
+            "upper_arm": 14
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 42,
+            "hem": 42,
+            "shoulder_width": 18,
+            "sleeve_length": 25.5,
+            "length": 28,
+            "upper_arm": 15
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 46,
+            "hem": 46,
+            "shoulder_width": 19,
+            "sleeve_length": 25.875,
+            "length": 29,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 50,
+            "hem": 50,
+            "shoulder_width": 20,
+            "sleeve_length": 26.25,
+            "length": 30,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 54,
+            "hem": 54,
+            "shoulder_width": 21,
+            "sleeve_length": 26.625,
+            "length": 31,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 58,
+            "hem": 58,
+            "shoulder_width": 22,
+            "sleeve_length": 27,
+            "length": 32,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5
+          }
+        }
+      ],
+      "render": {
+        "template": "long_sleeve_shirt",
+        "color": "#657d8e",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "long_sleeve_shirt-02",
+      "name": "Fitted Rib Long Sleeve",
+      "category": "long_sleeve_shirt",
+      "description": "A close-cut ribbed crewneck with a shaped hem and narrow sleeves.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "ribbed",
+        "fitted"
+      ],
+      "fabric": "95% cotton, 5% elastane rib knit",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 31,
+            "hem": 30,
+            "shoulder_width": 15,
+            "sleeve_length": 24.25,
+            "length": 25,
+            "upper_arm": 11.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 35,
+            "hem": 34,
+            "shoulder_width": 16,
+            "sleeve_length": 24.625,
+            "length": 26,
+            "upper_arm": 12.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 39,
+            "hem": 38,
+            "shoulder_width": 17,
+            "sleeve_length": 25,
+            "length": 27,
+            "upper_arm": 13.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 43,
+            "hem": 42,
+            "shoulder_width": 18,
+            "sleeve_length": 25.375,
+            "length": 28,
+            "upper_arm": 14.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 47,
+            "hem": 46,
+            "shoulder_width": 19,
+            "sleeve_length": 25.75,
+            "length": 29,
+            "upper_arm": 15.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 51,
+            "hem": 50,
+            "shoulder_width": 20,
+            "sleeve_length": 26.125,
+            "length": 30,
+            "upper_arm": 16.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 55,
+            "hem": 54,
+            "shoulder_width": 21,
+            "sleeve_length": 26.5,
+            "length": 31,
+            "upper_arm": 17.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5
+          }
+        }
+      ],
+      "render": {
+        "template": "long_sleeve_shirt",
+        "color": "#9e746d",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "long_sleeve_shirt-03",
+      "name": "Regular Oxford Shirt",
+      "category": "long_sleeve_shirt",
+      "description": "A regular woven button-front shirt with a standard collar and curved hem.",
+      "tags": [
+        "smart_casual",
+        "button_front",
+        "oxford",
+        "curved_hem"
+      ],
+      "fabric": "100% cotton Oxford weave",
+      "stretch": "none",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 36,
+            "hem": 36,
+            "shoulder_width": 16.5,
+            "sleeve_length": 24.75,
+            "length": 28,
+            "upper_arm": 14.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.3,
+            "cuff": 8.1
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 40,
+            "hem": 40,
+            "shoulder_width": 17.5,
+            "sleeve_length": 25.125,
+            "length": 29,
+            "upper_arm": 15.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.3,
+            "cuff": 8.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 44,
+            "hem": 44,
+            "shoulder_width": 18.5,
+            "sleeve_length": 25.5,
+            "length": 30,
+            "upper_arm": 16.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.3,
+            "cuff": 8.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 48,
+            "hem": 48,
+            "shoulder_width": 19.5,
+            "sleeve_length": 25.875,
+            "length": 31,
+            "upper_arm": 17.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.3,
+            "cuff": 9.3
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 52,
+            "hem": 52,
+            "shoulder_width": 20.5,
+            "sleeve_length": 26.25,
+            "length": 32,
+            "upper_arm": 18.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.3,
+            "cuff": 9.7
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 56,
+            "hem": 56,
+            "shoulder_width": 21.5,
+            "sleeve_length": 26.625,
+            "length": 33,
+            "upper_arm": 19.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.3,
+            "cuff": 10.1
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 60,
+            "hem": 60,
+            "shoulder_width": 22.5,
+            "sleeve_length": 27,
+            "length": 34,
+            "upper_arm": 20.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.3,
+            "cuff": 10.5
+          }
+        }
+      ],
+      "render": {
+        "template": "long_sleeve_shirt",
+        "color": "#a2b9c6",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "collar",
+        "closure": "buttons"
+      }
+    },
+    {
+      "id": "long_sleeve_shirt-04",
+      "name": "Relaxed Linen Long Sleeve",
+      "category": "long_sleeve_shirt",
+      "description": "A roomy linen button-front shirt with generous sleeves and a longer body.",
+      "tags": [
+        "casual",
+        "warm_weather",
+        "button_front",
+        "linen"
+      ],
+      "fabric": "100% linen woven",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 39,
+            "hem": 39,
+            "shoulder_width": 18,
+            "sleeve_length": 24.25,
+            "length": 28.5,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.3,
+            "cuff": 8.1
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 43,
+            "hem": 43,
+            "shoulder_width": 19,
+            "sleeve_length": 24.625,
+            "length": 29.5,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.3,
+            "cuff": 8.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 47,
+            "hem": 47,
+            "shoulder_width": 20,
+            "sleeve_length": 25,
+            "length": 30.5,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.3,
+            "cuff": 8.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 51,
+            "hem": 51,
+            "shoulder_width": 21,
+            "sleeve_length": 25.375,
+            "length": 31.5,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.3,
+            "cuff": 9.3
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 55,
+            "hem": 55,
+            "shoulder_width": 22,
+            "sleeve_length": 25.75,
+            "length": 32.5,
+            "upper_arm": 20
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.3,
+            "cuff": 9.7
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 59,
+            "hem": 59,
+            "shoulder_width": 23,
+            "sleeve_length": 26.125,
+            "length": 33.5,
+            "upper_arm": 21
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.3,
+            "cuff": 10.1
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 63,
+            "hem": 63,
+            "shoulder_width": 24,
+            "sleeve_length": 26.5,
+            "length": 34.5,
+            "upper_arm": 22
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.3,
+            "cuff": 10.5
+          }
+        }
+      ],
+      "render": {
+        "template": "long_sleeve_shirt",
+        "color": "#c1b89f",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "collar",
+        "closure": "buttons"
+      }
+    },
+    {
+      "id": "long_sleeve_shirt-05",
+      "name": "Slim Stretch Poplin Shirt",
+      "category": "long_sleeve_shirt",
+      "description": "A close-cut woven button-front shirt with a shaped waist and hem.",
+      "tags": [
+        "smart_casual",
+        "dress",
+        "button_front",
+        "poplin"
+      ],
+      "fabric": "97% cotton, 3% elastane poplin",
+      "stretch": "low",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 33,
+            "hem": 32,
+            "shoulder_width": 16,
+            "sleeve_length": 25.25,
+            "length": 27.5,
+            "upper_arm": 13
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.3,
+            "cuff": 8.1
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 37,
+            "hem": 36,
+            "shoulder_width": 17,
+            "sleeve_length": 25.625,
+            "length": 28.5,
+            "upper_arm": 14
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.3,
+            "cuff": 8.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 41,
+            "hem": 40,
+            "shoulder_width": 18,
+            "sleeve_length": 26,
+            "length": 29.5,
+            "upper_arm": 15
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.3,
+            "cuff": 8.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 45,
+            "hem": 44,
+            "shoulder_width": 19,
+            "sleeve_length": 26.375,
+            "length": 30.5,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.3,
+            "cuff": 9.3
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 49,
+            "hem": 48,
+            "shoulder_width": 20,
+            "sleeve_length": 26.75,
+            "length": 31.5,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.3,
+            "cuff": 9.7
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 53,
+            "hem": 52,
+            "shoulder_width": 21,
+            "sleeve_length": 27.125,
+            "length": 32.5,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.3,
+            "cuff": 10.1
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 57,
+            "hem": 56,
+            "shoulder_width": 22,
+            "sleeve_length": 27.5,
+            "length": 33.5,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.3,
+            "cuff": 10.5
+          }
+        }
+      ],
+      "render": {
+        "template": "long_sleeve_shirt",
+        "color": "#737e96",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "collar",
+        "closure": "buttons"
+      }
+    },
+    {
+      "id": "long_sleeve_shirt-06",
+      "name": "Boxy Pocket Long Sleeve",
+      "category": "long_sleeve_shirt",
+      "description": "A wide jersey crewneck with dropped shoulders and a shorter body.",
+      "tags": [
+        "casual",
+        "crewneck",
+        "boxy",
+        "drop_shoulder",
+        "short_length"
+      ],
+      "fabric": "100% heavyweight cotton jersey",
+      "stretch": "low",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 39,
+            "hem": 39,
+            "shoulder_width": 20,
+            "sleeve_length": 22.25,
+            "length": 24.5,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 43,
+            "hem": 43,
+            "shoulder_width": 21,
+            "sleeve_length": 22.625,
+            "length": 25.5,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 47,
+            "hem": 47,
+            "shoulder_width": 22,
+            "sleeve_length": 23,
+            "length": 26.5,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 51,
+            "hem": 51,
+            "shoulder_width": 23,
+            "sleeve_length": 23.375,
+            "length": 27.5,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 55,
+            "hem": 55,
+            "shoulder_width": 24,
+            "sleeve_length": 23.75,
+            "length": 28.5,
+            "upper_arm": 20
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 59,
+            "hem": 59,
+            "shoulder_width": 25,
+            "sleeve_length": 24.125,
+            "length": 29.5,
+            "upper_arm": 21
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 63,
+            "hem": 63,
+            "shoulder_width": 26,
+            "sleeve_length": 24.5,
+            "length": 30.5,
+            "upper_arm": 22
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5
+          }
+        }
+      ],
+      "render": {
+        "template": "long_sleeve_shirt",
+        "color": "#677b69",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "long_sleeve_shirt-07",
+      "name": "Longline Waffle Henley",
+      "category": "long_sleeve_shirt",
+      "description": "A regular waffle-knit henley with added body and sleeve length.",
+      "tags": [
+        "casual",
+        "henley",
+        "waffle",
+        "longline",
+        "long_sleeve_length"
+      ],
+      "fabric": "95% cotton, 5% elastane waffle knit",
+      "stretch": "moderate",
+      "silhouette": "regular",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 35,
+            "hem": 34,
+            "shoulder_width": 16.5,
+            "sleeve_length": 26.25,
+            "length": 30,
+            "upper_arm": 14
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 39,
+            "hem": 38,
+            "shoulder_width": 17.5,
+            "sleeve_length": 26.625,
+            "length": 31,
+            "upper_arm": 15
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 43,
+            "hem": 42,
+            "shoulder_width": 18.5,
+            "sleeve_length": 27,
+            "length": 32,
+            "upper_arm": 16
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 47,
+            "hem": 46,
+            "shoulder_width": 19.5,
+            "sleeve_length": 27.375,
+            "length": 33,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 51,
+            "hem": 50,
+            "shoulder_width": 20.5,
+            "sleeve_length": 27.75,
+            "length": 34,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 55,
+            "hem": 54,
+            "shoulder_width": 21.5,
+            "sleeve_length": 28.125,
+            "length": 35,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 59,
+            "hem": 58,
+            "shoulder_width": 22.5,
+            "sleeve_length": 28.5,
+            "length": 36,
+            "upper_arm": 20
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5
+          }
+        }
+      ],
+      "render": {
+        "template": "long_sleeve_shirt",
+        "color": "#a18c73",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "crew",
+        "closure": "placket"
+      }
+    },
+    {
+      "id": "long_sleeve_shirt-08",
+      "name": "Relaxed Flannel Shirt",
+      "category": "long_sleeve_shirt",
+      "description": "A roomy brushed woven shirt sized for light layering.",
+      "tags": [
+        "casual",
+        "button_front",
+        "flannel",
+        "layering"
+      ],
+      "fabric": "100% brushed cotton flannel",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 40,
+            "hem": 40,
+            "shoulder_width": 18.5,
+            "sleeve_length": 24.75,
+            "length": 29,
+            "upper_arm": 16.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.3,
+            "cuff": 8.1
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 44,
+            "hem": 44,
+            "shoulder_width": 19.5,
+            "sleeve_length": 25.125,
+            "length": 30,
+            "upper_arm": 17.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.3,
+            "cuff": 8.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 48,
+            "hem": 48,
+            "shoulder_width": 20.5,
+            "sleeve_length": 25.5,
+            "length": 31,
+            "upper_arm": 18.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.3,
+            "cuff": 8.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 52,
+            "hem": 52,
+            "shoulder_width": 21.5,
+            "sleeve_length": 25.875,
+            "length": 32,
+            "upper_arm": 19.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.3,
+            "cuff": 9.3
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 56,
+            "hem": 56,
+            "shoulder_width": 22.5,
+            "sleeve_length": 26.25,
+            "length": 33,
+            "upper_arm": 20.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.3,
+            "cuff": 9.7
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 60,
+            "hem": 60,
+            "shoulder_width": 23.5,
+            "sleeve_length": 26.625,
+            "length": 34,
+            "upper_arm": 21.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.3,
+            "cuff": 10.1
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 64,
+            "hem": 64,
+            "shoulder_width": 24.5,
+            "sleeve_length": 27,
+            "length": 35,
+            "upper_arm": 22.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.3,
+            "cuff": 10.5
+          }
+        }
+      ],
+      "render": {
+        "template": "long_sleeve_shirt",
+        "color": "#8a5550",
+        "construction_source": "synthetic_preview",
+        "pattern": "plaid",
+        "neckline": "collar",
+        "closure": "buttons"
+      }
+    },
+    {
+      "id": "long_sleeve_shirt-09",
+      "name": "Compact Mock Neck",
+      "category": "long_sleeve_shirt",
+      "description": "A close-cut stretch mock-neck shirt with a shorter body and sleeves.",
+      "tags": [
+        "casual",
+        "mock_neck",
+        "short_length",
+        "short_sleeve_length"
+      ],
+      "fabric": "95% modal, 5% elastane jersey",
+      "stretch": "moderate",
+      "silhouette": "slim",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 31,
+            "hem": 30,
+            "shoulder_width": 15,
+            "sleeve_length": 23.25,
+            "length": 23.5,
+            "upper_arm": 11.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.8,
+            "cuff": 8.1
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 35,
+            "hem": 34,
+            "shoulder_width": 16,
+            "sleeve_length": 23.625,
+            "length": 24.5,
+            "upper_arm": 12.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.8,
+            "cuff": 8.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 39,
+            "hem": 38,
+            "shoulder_width": 17,
+            "sleeve_length": 24,
+            "length": 25.5,
+            "upper_arm": 13.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.8,
+            "cuff": 8.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 43,
+            "hem": 42,
+            "shoulder_width": 18,
+            "sleeve_length": 24.375,
+            "length": 26.5,
+            "upper_arm": 14.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.8,
+            "cuff": 9.3
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 47,
+            "hem": 46,
+            "shoulder_width": 19,
+            "sleeve_length": 24.75,
+            "length": 27.5,
+            "upper_arm": 15.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.8,
+            "cuff": 9.7
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 51,
+            "hem": 50,
+            "shoulder_width": 20,
+            "sleeve_length": 25.125,
+            "length": 28.5,
+            "upper_arm": 16.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.8,
+            "cuff": 10.1
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 55,
+            "hem": 54,
+            "shoulder_width": 21,
+            "sleeve_length": 25.5,
+            "length": 29.5,
+            "upper_arm": 17.5
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.8,
+            "cuff": 10.5
+          }
+        }
+      ],
+      "render": {
+        "template": "long_sleeve_shirt",
+        "color": "#776d83",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "mock",
+        "closure": "none"
+      }
+    },
+    {
+      "id": "long_sleeve_shirt-10",
+      "name": "Cotton Twill Overshirt",
+      "category": "long_sleeve_shirt",
+      "description": "A relaxed woven overshirt with broad shoulders and extra room for a base layer.",
+      "tags": [
+        "casual",
+        "button_front",
+        "overshirt",
+        "layering"
+      ],
+      "fabric": "100% cotton twill",
+      "stretch": "none",
+      "silhouette": "relaxed",
+      "sizes": [
+        {
+          "size": "XS",
+          "measurements": {
+            "chest": 41,
+            "hem": 41,
+            "shoulder_width": 19,
+            "sleeve_length": 24.25,
+            "length": 28,
+            "upper_arm": 17
+          },
+          "render_dimensions": {
+            "neck_width": 6.1,
+            "neck_depth": 2.3,
+            "cuff": 8.1
+          }
+        },
+        {
+          "size": "S",
+          "measurements": {
+            "chest": 45,
+            "hem": 45,
+            "shoulder_width": 20,
+            "sleeve_length": 24.625,
+            "length": 29,
+            "upper_arm": 18
+          },
+          "render_dimensions": {
+            "neck_width": 6.23,
+            "neck_depth": 2.3,
+            "cuff": 8.5
+          }
+        },
+        {
+          "size": "M",
+          "measurements": {
+            "chest": 49,
+            "hem": 49,
+            "shoulder_width": 21,
+            "sleeve_length": 25,
+            "length": 30,
+            "upper_arm": 19
+          },
+          "render_dimensions": {
+            "neck_width": 6.36,
+            "neck_depth": 2.3,
+            "cuff": 8.9
+          }
+        },
+        {
+          "size": "L",
+          "measurements": {
+            "chest": 53,
+            "hem": 53,
+            "shoulder_width": 22,
+            "sleeve_length": 25.375,
+            "length": 31,
+            "upper_arm": 20
+          },
+          "render_dimensions": {
+            "neck_width": 6.49,
+            "neck_depth": 2.3,
+            "cuff": 9.3
+          }
+        },
+        {
+          "size": "XL",
+          "measurements": {
+            "chest": 57,
+            "hem": 57,
+            "shoulder_width": 23,
+            "sleeve_length": 25.75,
+            "length": 32,
+            "upper_arm": 21
+          },
+          "render_dimensions": {
+            "neck_width": 6.62,
+            "neck_depth": 2.3,
+            "cuff": 9.7
+          }
+        },
+        {
+          "size": "2XL",
+          "measurements": {
+            "chest": 61,
+            "hem": 61,
+            "shoulder_width": 24,
+            "sleeve_length": 26.125,
+            "length": 33,
+            "upper_arm": 22
+          },
+          "render_dimensions": {
+            "neck_width": 6.75,
+            "neck_depth": 2.3,
+            "cuff": 10.1
+          }
+        },
+        {
+          "size": "3XL",
+          "measurements": {
+            "chest": 65,
+            "hem": 65,
+            "shoulder_width": 25,
+            "sleeve_length": 26.5,
+            "length": 34,
+            "upper_arm": 23
+          },
+          "render_dimensions": {
+            "neck_width": 6.88,
+            "neck_depth": 2.3,
+            "cuff": 10.5
+          }
+        }
+      ],
+      "render": {
+        "template": "long_sleeve_shirt",
+        "color": "#6e785c",
+        "construction_source": "synthetic_preview",
+        "pattern": "solid",
+        "neckline": "collar",
+        "closure": "buttons"
+      }
+    }
+  ],
+  "render_version": "procedural-garments-v1"
+}

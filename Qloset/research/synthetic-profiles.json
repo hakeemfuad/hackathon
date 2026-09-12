@@ -1,0 +1,689 @@
+{
+  "synthetic": true,
+  "reference_is_not_calibrated": true,
+  "scenarios": [
+    {
+      "id": "baseline",
+      "input": {
+        "height_cm": 170,
+        "weight_kg": 70,
+        "gender": "female",
+        "ancestry": "mixed",
+        "body_shape": "unsure",
+        "belly": "average",
+        "build": "average",
+        "legs": "average",
+        "arms": "average",
+        "cup_size": "B"
+      },
+      "expected_direction": "Reference transform identity; personal dimensions remain unknown.",
+      "result": {
+        "version": "research-2026-09-12-v1",
+        "measurements": {
+          "height_cm": 170,
+          "weight_kg": 70,
+          "bust_cm": null,
+          "waist_cm": null,
+          "hip_cm": null,
+          "shoulder_width_cm": null,
+          "inseam_cm": null,
+          "sleeve_length_cm": null,
+          "thigh_cm": null,
+          "upper_arm_cm": null,
+          "underbust_cm": null,
+          "neck_cm": null,
+          "belly_depth_cm": null
+        },
+        "provenance": {
+          "height_cm": "user_supplied",
+          "weight_kg": "user_supplied",
+          "bust_cm": "unknown",
+          "waist_cm": "unknown",
+          "hip_cm": "unknown",
+          "shoulder_width_cm": "unknown",
+          "inseam_cm": "unknown",
+          "sleeve_length_cm": "unknown",
+          "thigh_cm": "unknown",
+          "upper_arm_cm": "unknown",
+          "underbust_cm": "unknown",
+          "neck_cm": "unknown",
+          "belly_depth_cm": "unknown"
+        },
+        "protocols": {
+          "height_cm": "barefoot-floor-to-vertex-v1",
+          "weight_kg": "body-mass-v1",
+          "bust_cm": "horizontal-bust-prominence-v1",
+          "waist_cm": "horizontal-rib-iliac-midpoint-normal-expiration-v1",
+          "hip_cm": "horizontal-maximum-buttocks-v1",
+          "shoulder_width_cm": "straight-biacromial-breadth-v1",
+          "inseam_cm": "vertical-perineum-to-floor-v1",
+          "sleeve_length_cm": "acromion-via-outer-elbow-to-ulnar-styloid-elbow30deg-v1",
+          "thigh_cm": "maximum-upper-thigh-below-gluteal-fold-v1",
+          "upper_arm_cm": "relaxed-acromion-olecranon-midpoint-v1",
+          "underbust_cm": "horizontal-inframammary-fold-v1",
+          "neck_cm": "below-larynx-perpendicular-to-neck-v1",
+          "belly_depth_cm": "sagittal-abdomen-minus-underbust-anterior-positive-v1"
+        },
+        "visual_controls": {
+          "upper_torso_emphasis": 0,
+          "lower_torso_emphasis": 0,
+          "waist_taper": 0,
+          "central_prominence": 0,
+          "surface_build": 0,
+          "relative_leg_length": 0,
+          "relative_arm_length": 0,
+          "ancestry_adjustment": 0,
+          "cup_adjustment": 0
+        },
+        "reference_transform": {
+          "vertical": 1,
+          "transverse": 1,
+          "relative_volume": 1,
+          "provenance": "visual_reference_constant_density_assumption"
+        },
+        "uncertainty": {
+          "calibrated": false,
+          "personal_prediction_intervals": null
+        }
+      }
+    },
+    {
+      "id": "higher_mass",
+      "input": {
+        "height_cm": 170,
+        "weight_kg": 80,
+        "gender": "female",
+        "ancestry": "mixed",
+        "body_shape": "unsure",
+        "belly": "average",
+        "build": "average",
+        "legs": "average",
+        "arms": "average",
+        "cup_size": "B"
+      },
+      "expected_direction": "Vertical scale unchanged; transverse scale +6.9045%; no predicted waist.",
+      "result": {
+        "version": "research-2026-09-12-v1",
+        "measurements": {
+          "height_cm": 170,
+          "weight_kg": 80,
+          "bust_cm": null,
+          "waist_cm": null,
+          "hip_cm": null,
+          "shoulder_width_cm": null,
+          "inseam_cm": null,
+          "sleeve_length_cm": null,
+          "thigh_cm": null,
+          "upper_arm_cm": null,
+          "underbust_cm": null,
+          "neck_cm": null,
+          "belly_depth_cm": null
+        },
+        "provenance": {
+          "height_cm": "user_supplied",
+          "weight_kg": "user_supplied",
+          "bust_cm": "unknown",
+          "waist_cm": "unknown",
+          "hip_cm": "unknown",
+          "shoulder_width_cm": "unknown",
+          "inseam_cm": "unknown",
+          "sleeve_length_cm": "unknown",
+          "thigh_cm": "unknown",
+          "upper_arm_cm": "unknown",
+          "underbust_cm": "unknown",
+          "neck_cm": "unknown",
+          "belly_depth_cm": "unknown"
+        },
+        "protocols": {
+          "height_cm": "barefoot-floor-to-vertex-v1",
+          "weight_kg": "body-mass-v1",
+          "bust_cm": "horizontal-bust-prominence-v1",
+          "waist_cm": "horizontal-rib-iliac-midpoint-normal-expiration-v1",
+          "hip_cm": "horizontal-maximum-buttocks-v1",
+          "shoulder_width_cm": "straight-biacromial-breadth-v1",
+          "inseam_cm": "vertical-perineum-to-floor-v1",
+          "sleeve_length_cm": "acromion-via-outer-elbow-to-ulnar-styloid-elbow30deg-v1",
+          "thigh_cm": "maximum-upper-thigh-below-gluteal-fold-v1",
+          "upper_arm_cm": "relaxed-acromion-olecranon-midpoint-v1",
+          "underbust_cm": "horizontal-inframammary-fold-v1",
+          "neck_cm": "below-larynx-perpendicular-to-neck-v1",
+          "belly_depth_cm": "sagittal-abdomen-minus-underbust-anterior-positive-v1"
+        },
+        "visual_controls": {
+          "upper_torso_emphasis": 0,
+          "lower_torso_emphasis": 0,
+          "waist_taper": 0,
+          "central_prominence": 0,
+          "surface_build": 0,
+          "relative_leg_length": 0,
+          "relative_arm_length": 0,
+          "ancestry_adjustment": 0,
+          "cup_adjustment": 0
+        },
+        "reference_transform": {
+          "vertical": 1,
+          "transverse": 1.0690449676496976,
+          "relative_volume": 1.1428571428571428,
+          "provenance": "visual_reference_constant_density_assumption"
+        },
+        "uncertainty": {
+          "calibrated": false,
+          "personal_prediction_intervals": null
+        }
+      }
+    },
+    {
+      "id": "taller_same_mass",
+      "input": {
+        "height_cm": 180,
+        "weight_kg": 70,
+        "gender": "female",
+        "ancestry": "mixed",
+        "body_shape": "unsure",
+        "belly": "average",
+        "build": "average",
+        "legs": "average",
+        "arms": "average",
+        "cup_size": "B"
+      },
+      "expected_direction": "Taller and transversely narrower at the same reference volume.",
+      "result": {
+        "version": "research-2026-09-12-v1",
+        "measurements": {
+          "height_cm": 180,
+          "weight_kg": 70,
+          "bust_cm": null,
+          "waist_cm": null,
+          "hip_cm": null,
+          "shoulder_width_cm": null,
+          "inseam_cm": null,
+          "sleeve_length_cm": null,
+          "thigh_cm": null,
+          "upper_arm_cm": null,
+          "underbust_cm": null,
+          "neck_cm": null,
+          "belly_depth_cm": null
+        },
+        "provenance": {
+          "height_cm": "user_supplied",
+          "weight_kg": "user_supplied",
+          "bust_cm": "unknown",
+          "waist_cm": "unknown",
+          "hip_cm": "unknown",
+          "shoulder_width_cm": "unknown",
+          "inseam_cm": "unknown",
+          "sleeve_length_cm": "unknown",
+          "thigh_cm": "unknown",
+          "upper_arm_cm": "unknown",
+          "underbust_cm": "unknown",
+          "neck_cm": "unknown",
+          "belly_depth_cm": "unknown"
+        },
+        "protocols": {
+          "height_cm": "barefoot-floor-to-vertex-v1",
+          "weight_kg": "body-mass-v1",
+          "bust_cm": "horizontal-bust-prominence-v1",
+          "waist_cm": "horizontal-rib-iliac-midpoint-normal-expiration-v1",
+          "hip_cm": "horizontal-maximum-buttocks-v1",
+          "shoulder_width_cm": "straight-biacromial-breadth-v1",
+          "inseam_cm": "vertical-perineum-to-floor-v1",
+          "sleeve_length_cm": "acromion-via-outer-elbow-to-ulnar-styloid-elbow30deg-v1",
+          "thigh_cm": "maximum-upper-thigh-below-gluteal-fold-v1",
+          "upper_arm_cm": "relaxed-acromion-olecranon-midpoint-v1",
+          "underbust_cm": "horizontal-inframammary-fold-v1",
+          "neck_cm": "below-larynx-perpendicular-to-neck-v1",
+          "belly_depth_cm": "sagittal-abdomen-minus-underbust-anterior-positive-v1"
+        },
+        "visual_controls": {
+          "upper_torso_emphasis": 0,
+          "lower_torso_emphasis": 0,
+          "waist_taper": 0,
+          "central_prominence": 0,
+          "surface_build": 0,
+          "relative_leg_length": 0,
+          "relative_arm_length": 0,
+          "ancestry_adjustment": 0,
+          "cup_adjustment": 0
+        },
+        "reference_transform": {
+          "vertical": 1.0588235294117647,
+          "transverse": 0.97182531580755,
+          "relative_volume": 1,
+          "provenance": "visual_reference_constant_density_assumption"
+        },
+        "uncertainty": {
+          "calibrated": false,
+          "personal_prediction_intervals": null
+        }
+      }
+    },
+    {
+      "id": "long_legs",
+      "input": {
+        "height_cm": 170,
+        "weight_kg": 70,
+        "gender": "female",
+        "ancestry": "mixed",
+        "body_shape": "unsure",
+        "belly": "average",
+        "build": "average",
+        "legs": "long",
+        "arms": "average",
+        "cup_size": "B"
+      },
+      "expected_direction": "Leg direction +1; renderer must compensate torso to preserve height.",
+      "result": {
+        "version": "research-2026-09-12-v1",
+        "measurements": {
+          "height_cm": 170,
+          "weight_kg": 70,
+          "bust_cm": null,
+          "waist_cm": null,
+          "hip_cm": null,
+          "shoulder_width_cm": null,
+          "inseam_cm": null,
+          "sleeve_length_cm": null,
+          "thigh_cm": null,
+          "upper_arm_cm": null,
+          "underbust_cm": null,
+          "neck_cm": null,
+          "belly_depth_cm": null
+        },
+        "provenance": {
+          "height_cm": "user_supplied",
+          "weight_kg": "user_supplied",
+          "bust_cm": "unknown",
+          "waist_cm": "unknown",
+          "hip_cm": "unknown",
+          "shoulder_width_cm": "unknown",
+          "inseam_cm": "unknown",
+          "sleeve_length_cm": "unknown",
+          "thigh_cm": "unknown",
+          "upper_arm_cm": "unknown",
+          "underbust_cm": "unknown",
+          "neck_cm": "unknown",
+          "belly_depth_cm": "unknown"
+        },
+        "protocols": {
+          "height_cm": "barefoot-floor-to-vertex-v1",
+          "weight_kg": "body-mass-v1",
+          "bust_cm": "horizontal-bust-prominence-v1",
+          "waist_cm": "horizontal-rib-iliac-midpoint-normal-expiration-v1",
+          "hip_cm": "horizontal-maximum-buttocks-v1",
+          "shoulder_width_cm": "straight-biacromial-breadth-v1",
+          "inseam_cm": "vertical-perineum-to-floor-v1",
+          "sleeve_length_cm": "acromion-via-outer-elbow-to-ulnar-styloid-elbow30deg-v1",
+          "thigh_cm": "maximum-upper-thigh-below-gluteal-fold-v1",
+          "upper_arm_cm": "relaxed-acromion-olecranon-midpoint-v1",
+          "underbust_cm": "horizontal-inframammary-fold-v1",
+          "neck_cm": "below-larynx-perpendicular-to-neck-v1",
+          "belly_depth_cm": "sagittal-abdomen-minus-underbust-anterior-positive-v1"
+        },
+        "visual_controls": {
+          "upper_torso_emphasis": 0,
+          "lower_torso_emphasis": 0,
+          "waist_taper": 0,
+          "central_prominence": 0,
+          "surface_build": 0,
+          "relative_leg_length": 1,
+          "relative_arm_length": 0,
+          "ancestry_adjustment": 0,
+          "cup_adjustment": 0
+        },
+        "reference_transform": {
+          "vertical": 1,
+          "transverse": 1,
+          "relative_volume": 1,
+          "provenance": "visual_reference_constant_density_assumption"
+        },
+        "uncertainty": {
+          "calibrated": false,
+          "personal_prediction_intervals": null
+        }
+      }
+    },
+    {
+      "id": "pear",
+      "input": {
+        "height_cm": 170,
+        "weight_kg": 70,
+        "gender": "female",
+        "ancestry": "mixed",
+        "body_shape": "pear",
+        "belly": "average",
+        "build": "average",
+        "legs": "average",
+        "arms": "average",
+        "cup_size": "B"
+      },
+      "expected_direction": "Lower torso emphasis +1; no centimeter offset.",
+      "result": {
+        "version": "research-2026-09-12-v1",
+        "measurements": {
+          "height_cm": 170,
+          "weight_kg": 70,
+          "bust_cm": null,
+          "waist_cm": null,
+          "hip_cm": null,
+          "shoulder_width_cm": null,
+          "inseam_cm": null,
+          "sleeve_length_cm": null,
+          "thigh_cm": null,
+          "upper_arm_cm": null,
+          "underbust_cm": null,
+          "neck_cm": null,
+          "belly_depth_cm": null
+        },
+        "provenance": {
+          "height_cm": "user_supplied",
+          "weight_kg": "user_supplied",
+          "bust_cm": "unknown",
+          "waist_cm": "unknown",
+          "hip_cm": "unknown",
+          "shoulder_width_cm": "unknown",
+          "inseam_cm": "unknown",
+          "sleeve_length_cm": "unknown",
+          "thigh_cm": "unknown",
+          "upper_arm_cm": "unknown",
+          "underbust_cm": "unknown",
+          "neck_cm": "unknown",
+          "belly_depth_cm": "unknown"
+        },
+        "protocols": {
+          "height_cm": "barefoot-floor-to-vertex-v1",
+          "weight_kg": "body-mass-v1",
+          "bust_cm": "horizontal-bust-prominence-v1",
+          "waist_cm": "horizontal-rib-iliac-midpoint-normal-expiration-v1",
+          "hip_cm": "horizontal-maximum-buttocks-v1",
+          "shoulder_width_cm": "straight-biacromial-breadth-v1",
+          "inseam_cm": "vertical-perineum-to-floor-v1",
+          "sleeve_length_cm": "acromion-via-outer-elbow-to-ulnar-styloid-elbow30deg-v1",
+          "thigh_cm": "maximum-upper-thigh-below-gluteal-fold-v1",
+          "upper_arm_cm": "relaxed-acromion-olecranon-midpoint-v1",
+          "underbust_cm": "horizontal-inframammary-fold-v1",
+          "neck_cm": "below-larynx-perpendicular-to-neck-v1",
+          "belly_depth_cm": "sagittal-abdomen-minus-underbust-anterior-positive-v1"
+        },
+        "visual_controls": {
+          "upper_torso_emphasis": 0,
+          "lower_torso_emphasis": 1,
+          "waist_taper": 0,
+          "central_prominence": 0,
+          "surface_build": 0,
+          "relative_leg_length": 0,
+          "relative_arm_length": 0,
+          "ancestry_adjustment": 0,
+          "cup_adjustment": 0
+        },
+        "reference_transform": {
+          "vertical": 1,
+          "transverse": 1,
+          "relative_volume": 1,
+          "provenance": "visual_reference_constant_density_assumption"
+        },
+        "uncertainty": {
+          "calibrated": false,
+          "personal_prediction_intervals": null
+        }
+      }
+    },
+    {
+      "id": "apple_prominent",
+      "input": {
+        "height_cm": 170,
+        "weight_kg": 70,
+        "gender": "female",
+        "ancestry": "mixed",
+        "body_shape": "apple",
+        "belly": "prominent",
+        "build": "average",
+        "legs": "average",
+        "arms": "average",
+        "cup_size": "B"
+      },
+      "expected_direction": "Central prominence remains +1; no stacked adjustment.",
+      "result": {
+        "version": "research-2026-09-12-v1",
+        "measurements": {
+          "height_cm": 170,
+          "weight_kg": 70,
+          "bust_cm": null,
+          "waist_cm": null,
+          "hip_cm": null,
+          "shoulder_width_cm": null,
+          "inseam_cm": null,
+          "sleeve_length_cm": null,
+          "thigh_cm": null,
+          "upper_arm_cm": null,
+          "underbust_cm": null,
+          "neck_cm": null,
+          "belly_depth_cm": null
+        },
+        "provenance": {
+          "height_cm": "user_supplied",
+          "weight_kg": "user_supplied",
+          "bust_cm": "unknown",
+          "waist_cm": "unknown",
+          "hip_cm": "unknown",
+          "shoulder_width_cm": "unknown",
+          "inseam_cm": "unknown",
+          "sleeve_length_cm": "unknown",
+          "thigh_cm": "unknown",
+          "upper_arm_cm": "unknown",
+          "underbust_cm": "unknown",
+          "neck_cm": "unknown",
+          "belly_depth_cm": "unknown"
+        },
+        "protocols": {
+          "height_cm": "barefoot-floor-to-vertex-v1",
+          "weight_kg": "body-mass-v1",
+          "bust_cm": "horizontal-bust-prominence-v1",
+          "waist_cm": "horizontal-rib-iliac-midpoint-normal-expiration-v1",
+          "hip_cm": "horizontal-maximum-buttocks-v1",
+          "shoulder_width_cm": "straight-biacromial-breadth-v1",
+          "inseam_cm": "vertical-perineum-to-floor-v1",
+          "sleeve_length_cm": "acromion-via-outer-elbow-to-ulnar-styloid-elbow30deg-v1",
+          "thigh_cm": "maximum-upper-thigh-below-gluteal-fold-v1",
+          "upper_arm_cm": "relaxed-acromion-olecranon-midpoint-v1",
+          "underbust_cm": "horizontal-inframammary-fold-v1",
+          "neck_cm": "below-larynx-perpendicular-to-neck-v1",
+          "belly_depth_cm": "sagittal-abdomen-minus-underbust-anterior-positive-v1"
+        },
+        "visual_controls": {
+          "upper_torso_emphasis": 0,
+          "lower_torso_emphasis": 0,
+          "waist_taper": 0,
+          "central_prominence": 1,
+          "surface_build": 0,
+          "relative_leg_length": 0,
+          "relative_arm_length": 0,
+          "ancestry_adjustment": 0,
+          "cup_adjustment": 0
+        },
+        "reference_transform": {
+          "vertical": 1,
+          "transverse": 1,
+          "relative_volume": 1,
+          "provenance": "visual_reference_constant_density_assumption"
+        },
+        "uncertainty": {
+          "calibrated": false,
+          "personal_prediction_intervals": null
+        }
+      }
+    },
+    {
+      "id": "male_example",
+      "input": {
+        "height_cm": 170,
+        "weight_kg": 70,
+        "gender": "male",
+        "ancestry": "mixed",
+        "body_shape": "unsure",
+        "belly": "average",
+        "build": "average",
+        "legs": "average",
+        "arms": "average",
+        "cup_size": null
+      },
+      "expected_direction": "Same geometry given the same reference; no invented sex coefficients.",
+      "result": {
+        "version": "research-2026-09-12-v1",
+        "measurements": {
+          "height_cm": 170,
+          "weight_kg": 70,
+          "bust_cm": null,
+          "waist_cm": null,
+          "hip_cm": null,
+          "shoulder_width_cm": null,
+          "inseam_cm": null,
+          "sleeve_length_cm": null,
+          "thigh_cm": null,
+          "upper_arm_cm": null,
+          "underbust_cm": null,
+          "neck_cm": null,
+          "belly_depth_cm": null
+        },
+        "provenance": {
+          "height_cm": "user_supplied",
+          "weight_kg": "user_supplied",
+          "bust_cm": "unknown",
+          "waist_cm": "unknown",
+          "hip_cm": "unknown",
+          "shoulder_width_cm": "unknown",
+          "inseam_cm": "unknown",
+          "sleeve_length_cm": "unknown",
+          "thigh_cm": "unknown",
+          "upper_arm_cm": "unknown",
+          "underbust_cm": "unknown",
+          "neck_cm": "unknown",
+          "belly_depth_cm": "unknown"
+        },
+        "protocols": {
+          "height_cm": "barefoot-floor-to-vertex-v1",
+          "weight_kg": "body-mass-v1",
+          "bust_cm": "horizontal-bust-prominence-v1",
+          "waist_cm": "horizontal-rib-iliac-midpoint-normal-expiration-v1",
+          "hip_cm": "horizontal-maximum-buttocks-v1",
+          "shoulder_width_cm": "straight-biacromial-breadth-v1",
+          "inseam_cm": "vertical-perineum-to-floor-v1",
+          "sleeve_length_cm": "acromion-via-outer-elbow-to-ulnar-styloid-elbow30deg-v1",
+          "thigh_cm": "maximum-upper-thigh-below-gluteal-fold-v1",
+          "upper_arm_cm": "relaxed-acromion-olecranon-midpoint-v1",
+          "underbust_cm": "horizontal-inframammary-fold-v1",
+          "neck_cm": "below-larynx-perpendicular-to-neck-v1",
+          "belly_depth_cm": "sagittal-abdomen-minus-underbust-anterior-positive-v1"
+        },
+        "visual_controls": {
+          "upper_torso_emphasis": 0,
+          "lower_torso_emphasis": 0,
+          "waist_taper": 0,
+          "central_prominence": 0,
+          "surface_build": 0,
+          "relative_leg_length": 0,
+          "relative_arm_length": 0,
+          "ancestry_adjustment": 0,
+          "cup_adjustment": 0
+        },
+        "reference_transform": {
+          "vertical": 1,
+          "transverse": 1,
+          "relative_volume": 1,
+          "provenance": "visual_reference_constant_density_assumption"
+        },
+        "uncertainty": {
+          "calibrated": false,
+          "personal_prediction_intervals": null
+        }
+      }
+    }
+  ],
+  "measured_override_example": {
+    "version": "research-2026-09-12-v1",
+    "measurements": {
+      "height_cm": 170,
+      "weight_kg": 70,
+      "bust_cm": 101,
+      "waist_cm": 80,
+      "hip_cm": 110,
+      "shoulder_width_cm": null,
+      "inseam_cm": null,
+      "sleeve_length_cm": null,
+      "thigh_cm": null,
+      "upper_arm_cm": null,
+      "underbust_cm": null,
+      "neck_cm": null,
+      "belly_depth_cm": null
+    },
+    "provenance": {
+      "height_cm": "user_supplied",
+      "weight_kg": "user_supplied",
+      "bust_cm": "user_measured",
+      "waist_cm": "user_measured",
+      "hip_cm": "user_measured",
+      "shoulder_width_cm": "unknown",
+      "inseam_cm": "unknown",
+      "sleeve_length_cm": "unknown",
+      "thigh_cm": "unknown",
+      "upper_arm_cm": "unknown",
+      "underbust_cm": "unknown",
+      "neck_cm": "unknown",
+      "belly_depth_cm": "unknown"
+    },
+    "protocols": {
+      "height_cm": "barefoot-floor-to-vertex-v1",
+      "weight_kg": "body-mass-v1",
+      "bust_cm": "horizontal-bust-prominence-v1",
+      "waist_cm": "horizontal-rib-iliac-midpoint-normal-expiration-v1",
+      "hip_cm": "horizontal-maximum-buttocks-v1",
+      "shoulder_width_cm": "straight-biacromial-breadth-v1",
+      "inseam_cm": "vertical-perineum-to-floor-v1",
+      "sleeve_length_cm": "acromion-via-outer-elbow-to-ulnar-styloid-elbow30deg-v1",
+      "thigh_cm": "maximum-upper-thigh-below-gluteal-fold-v1",
+      "upper_arm_cm": "relaxed-acromion-olecranon-midpoint-v1",
+      "underbust_cm": "horizontal-inframammary-fold-v1",
+      "neck_cm": "below-larynx-perpendicular-to-neck-v1",
+      "belly_depth_cm": "sagittal-abdomen-minus-underbust-anterior-positive-v1"
+    },
+    "visual_controls": {
+      "upper_torso_emphasis": 0,
+      "lower_torso_emphasis": 0,
+      "waist_taper": 0,
+      "central_prominence": 0,
+      "surface_build": 0,
+      "relative_leg_length": 0,
+      "relative_arm_length": 0,
+      "ancestry_adjustment": 0,
+      "cup_adjustment": 0
+    },
+    "reference_transform": {
+      "vertical": 1,
+      "transverse": 1,
+      "relative_volume": 1,
+      "provenance": "visual_reference_constant_density_assumption"
+    },
+    "uncertainty": {
+      "calibrated": false,
+      "personal_prediction_intervals": null
+    }
+  },
+  "conditional_research_example": {
+    "synthetic": true,
+    "age_years": 40,
+    "result": {
+      "waist_source_protocol_cm": 79.07110547785148,
+      "illustrative_log_residual_band_cm": [
+        70.29829300813024,
+        88.93871321692578
+      ],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2569934/",
+      "eligible_for_automatic_contract_mapping": false,
+      "limitations": [
+        "waist protocol unresolved",
+        "external individual coverage unknown",
+        "height/mass domain limits not established",
+        "gender-to-study-sex mapping is an assumption"
+      ]
+    }
+  }
+}
